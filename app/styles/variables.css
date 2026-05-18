@@ -1,0 +1,91 @@
+:root {
+  /* === One Dark Base === */
+  --bg-primary: #0b1020;
+  --bg-secondary: #111827;
+  --bg-tertiary: #161b2e;
+  --bg-elevated: #1b2140;
+
+  /* === Glassmorphism Surfaces === */
+  --glass-bg: rgba(22, 27, 46, 0.45);
+  --glass-bg-strong: rgba(28, 35, 64, 0.65);
+  --glass-border: rgba(180, 200, 255, 0.12);
+  --glass-highlight: rgba(255, 255, 255, 0.06);
+
+  /* === Text === */
+  --text-primary: #e6edf3;
+  --text-secondary: #b6c2d9;
+  --text-muted: #7d8596;
+  --text-accent: #c792ea;
+
+  /* === Accent Colors === */
+  --accent-purple: #bb86fc;
+  --accent-violet: #9d7dff;
+  --accent-blue: #6ea8fe;
+  --accent-cyan: #63f2ff;
+  --accent-pink: #ff79c6;
+
+  /* === Nebula / Space Colors === */
+  --nebula-purple: #7b2cbf;
+  --nebula-magenta: #d16dff;
+  --nebula-blue: #3b82f6;
+  --space-dark: #050816;
+  --space-deep: #0a0f24;
+
+  /* === Syntax Highlighting === */
+  --code-keyword: #c678dd;
+  --code-string: #98c379;
+  --code-function: #61afef;
+  --code-variable: #e06c75;
+  --code-comment: #5c6370;
+  --code-number: #d19a66;
+
+  /* === Status / UI === */
+  --success: #7ee787;
+  --warning: #f2cc60;
+  --danger: #ff6b81;
+  --info: #56b6c2;
+
+  /* === Shadows & Glow === */
+  --shadow-dark: rgba(0, 0, 0, 0.45);
+  --glow-purple: rgba(187, 134, 252, 0.35);
+  --glow-blue: rgba(110, 168, 254, 0.25);
+  --glow-pink: rgba(255, 121, 198, 0.2);
+
+  /* === Borders === */
+  --border-soft: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* === Gradients === */
+  --gradient-primary: linear-gradient(
+    135deg,
+    #0b1020 0%,
+    #131a33 35%,
+    #1b2140 70%,
+    #24183f 100%
+  );
+
+  --gradient-nebula: radial-gradient(
+    circle at center,
+    rgba(209, 109, 255, 0.35) 0%,
+    rgba(123, 44, 191, 0.22) 35%,
+    rgba(59, 130, 246, 0.1) 70%,
+    transparent 100%
+  );
+
+  --gradient-glow: linear-gradient(
+    135deg,
+    rgba(187, 134, 252, 0.18),
+    rgba(110, 168, 254, 0.1)
+  );
+
+  /* === Blur & Radius === */
+  --blur-amount: 18px;
+  --radius-small: 12px;
+  --radius-medium: 18px;
+  --radius-large: 28px;
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+}
