@@ -1,7 +1,7 @@
 <template>
   <main class="main">
-    <BaseCard tag="section" class="code"> Code </BaseCard>
-    <BaseCard tag="section" class="stories"> Stories </BaseCard>
+    <AppCodeOverview class="code" />
+    <AppStoriesOverview class="stories" />
   </main>
 </template>
 
@@ -30,12 +30,10 @@
 .code {
   grid-column: 1 / 4;
   grid-row: 1 / -1;
-  height: 400px;
 }
 
 .stories {
   grid-column: 4 / 6;
   grid-row: 1 / -1;
-  height: 400px;
 }
 </style>

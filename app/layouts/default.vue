@@ -1,14 +1,14 @@
 <template>
   <div class="default-layout">
     <NuxtRouteAnnouncer />
-    <BaseCard tag="header" class="header"> Header </BaseCard>
-    <BaseCard tag="aside" class="nav"> Navigation </BaseCard>
-    <BaseCard tag="section" class="widget"> Widget </BaseCard>
+    <AppHeader class="header" />
+    <AppNavbar class="nav" />
+    <AppWidget class="widget" />
     <slot />
-    <BaseCard tag="section" class="links"> Links </BaseCard>
-    <BaseCard tag="section" class="terminal"> Terminal </BaseCard>
-    <BaseCard tag="section" class="news"> News </BaseCard>
-    <BaseCard tag="footer" class="footer"> Footer </BaseCard>
+    <AppLinksOverview class="links" />
+    <AppTerminal class="terminal" />
+    <AppBlogOverview class="blog" />
+    <AppFooter class="footer" />
   </div>
 </template>
 
@@ -36,7 +36,7 @@
     "nav      main     main     main     main     main"
     "widget   main     main     main     main     main"
     "links    links    links    links    links    links"
-    "terminal terminal terminal news     news     news"
+    "terminal terminal terminal blog     blog     blog"
     "footer   footer   footer   footer   footer   footer";
   gap: 1rem;
 }
@@ -47,25 +47,22 @@
 
 .header {
   grid-area: header;
-  height: 450px;
 }
 
 .widget {
   grid-area: widget;
-  height: 150px;
 }
 
 .links {
   grid-area: links;
-  height: 250px;
 }
 
 .terminal {
   grid-area: terminal;
 }
 
-.news {
-  grid-area: news;
+.blog {
+  grid-area: blog;
 }
 
 .footer {
