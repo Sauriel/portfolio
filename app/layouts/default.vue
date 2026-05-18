@@ -5,9 +5,6 @@
     <AppNavbar class="nav" />
     <AppWidget class="widget" />
     <slot />
-    <AppLinksOverview class="links" />
-    <AppTerminal class="terminal" />
-    <AppBlogOverview class="blog" />
     <AppFooter class="footer" />
   </div>
 </template>
@@ -31,41 +28,37 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto 1fr repeat(4, auto);
-  grid-template-areas:
+  /* grid-template-areas:
     "nav      header   header   header   header   header"
     "nav      main     main     main     main     main"
     "widget   main     main     main     main     main"
-    "links    links    links    links    links    links"
-    "terminal terminal terminal blog     blog     blog"
-    "footer   footer   footer   footer   footer   footer";
+    "main     main     main     main     main     main"
+    "main     main     main     main     main     main"
+    "footer   footer   footer   footer   footer   footer"; */
   gap: 1rem;
 }
 
 .nav {
-  grid-area: nav;
+  /* grid-area: nav; */
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
 
 .header {
-  grid-area: header;
+  /* grid-area: header; */
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
 }
 
 .widget {
-  grid-area: widget;
-}
-
-.links {
-  grid-area: links;
-}
-
-.terminal {
-  grid-area: terminal;
-}
-
-.blog {
-  grid-area: blog;
+  /* grid-area: widget; */
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
 }
 
 .footer {
-  grid-area: footer;
+  /* grid-area: footer; */
+  grid-column: 1 / -1;
+  grid-row: 6 / -1;
 }
 </style>
