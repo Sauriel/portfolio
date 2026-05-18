@@ -19,7 +19,7 @@
       <header>$ whoami</header>
       <p>
         nerdydev &mdash; overthinker &mdash; problem solver &mdash; lifelong
-        learner &mdash; frontend evangelist
+        learner &mdash; frontend evangelist<span class="cursor"></span>
       </p>
     </article>
     <AppHeaderActions class="actions" />
@@ -100,7 +100,29 @@
 }
 
 .whoami p {
-  margin: 0.25rem 0 0;
+  margin: 0.1rem 0 0;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.7ch;
+  height: 1.25em;
+  background-color: var(--text-secondary);
+  margin-left: 1ch;
+  animation: blink 2s step-end infinite;
+  position: relative;
+  top: 0.2em;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
 }
 
 .actions {
