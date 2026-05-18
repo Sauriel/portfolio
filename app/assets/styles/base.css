@@ -1,0 +1,20 @@
+body {
+  background:
+    var(--gradient-nebula), var(--gradient-primary), var(--space-dark);
+
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: color var(--transition-normal);
+}
+
+a:hover {
+  color: var(--accent-violet);
+}
+
+a:active {
+  color: var(--accent-pink);
+}

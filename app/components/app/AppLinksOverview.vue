@@ -1,5 +1,14 @@
 <template>
-  <BaseCard tag="section" style="height: 250px"> Links </BaseCard>
+  <BaseCard
+    tag="section"
+    title="Links"
+    icon="mynaui:link"
+    linkText="View all links"
+    linkHref="/links"
+    style="height: 250px"
+  >
+    Links
+  </BaseCard>
 </template>
 
 <script setup lang="ts">

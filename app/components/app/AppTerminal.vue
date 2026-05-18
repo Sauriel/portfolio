@@ -1,5 +1,12 @@
 <template>
-  <BaseCard tag="section" style="height: 350px"> Terminal </BaseCard>
+  <BaseCard
+    tag="section"
+    title="Terminal"
+    icon="iconoir:terminal-tag"
+    style="height: 350px"
+  >
+    Terminal
+  </BaseCard>
 </template>
 
 <script setup lang="ts">

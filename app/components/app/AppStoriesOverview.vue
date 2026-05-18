@@ -1,5 +1,14 @@
 <template>
-  <BaseCard tag="section" style="height: 400px"> Stories </BaseCard>
+  <BaseCard
+    tag="section"
+    title="Stories"
+    icon="ph:books-fill"
+    linkText="View all"
+    linkHref="/stories"
+    style="height: 400px"
+  >
+    Stories
+  </BaseCard>
 </template>
 
 <script setup lang="ts">

@@ -1,14 +1,5 @@
 <template>
-  <BaseCard
-    tag="section"
-    title="Blog"
-    icon="nrk:latest-news"
-    linkText="View all blog posts"
-    linkHref="/blog"
-    style="height: 350px"
-  >
-    Blog
-  </BaseCard>
+  <div>code</div>
 </template>
 
 <script setup lang="ts">

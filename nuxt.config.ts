@@ -14,5 +14,20 @@ export default defineNuxtConfig({
 
   ssr: true,
 
-  css: ["./app/styles/styles.css"],
+  css: ["./app/assets/styles/styles.css"],
+
+  experimental: {
+    typedPages: true,
+  },
+
+  fonts: {
+    families: [
+      { name: "Open Sans", provider: "google" },
+      { name: "Victor Mono", provider: "google" },
+      { name: "Story Script", provider: "google" },
+      { name: "Cormorant Garamond", provider: "google" },
+      { name: "Cormorant Unicase", provider: "google" },
+      { name: "Cormorant SC", provider: "google" },
+    ],
+  },
 });

@@ -1,5 +1,14 @@
 <template>
-  <BaseCard tag="section" style="height: 400px"> Code </BaseCard>
+  <BaseCard
+    tag="section"
+    title="Code"
+    icon="tabler:code"
+    linkText="View all projects"
+    linkHref="/code"
+    style="height: 400px"
+  >
+    Code
+  </BaseCard>
 </template>
 
 <script setup lang="ts">
