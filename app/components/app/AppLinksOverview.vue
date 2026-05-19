@@ -1,5 +1,5 @@
 <template>
-  <BaseCard
+  <UiCard
     tag="section"
     title="Links"
     icon="mynaui:link"
@@ -8,7 +8,7 @@
     style="height: 250px"
   >
     Links
-  </BaseCard>
+  </UiCard>
 </template>
 
 <style scoped>

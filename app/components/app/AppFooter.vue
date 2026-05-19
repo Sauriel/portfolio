@@ -1,5 +1,5 @@
 <template>
-  <BaseCard tag="footer"> Footer </BaseCard>
+  <UiCard tag="footer"> Footer </UiCard>
 </template>
 
 <style scoped>

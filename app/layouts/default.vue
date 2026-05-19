@@ -13,7 +13,7 @@
 .default-layout {
   grid-area: layout;
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) repeat(4, 1fr) minmax(180px, 1fr);
+  grid-template-columns: minmax(220px, 1fr) repeat(4, 1fr) minmax(220px, 1fr);
   grid-template-rows: auto 1fr repeat(4, auto);
   /* grid-template-areas:
     "nav      header   header   header   header   header"

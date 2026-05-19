@@ -1,5 +1,5 @@
 <template>
-  <BaseCard
+  <UiCard
     tag="section"
     title="Blog"
     icon="nrk:latest-news"
@@ -8,7 +8,7 @@
     style="height: 350px"
   >
     Blog
-  </BaseCard>
+  </UiCard>
 </template>
 
 <style scoped>

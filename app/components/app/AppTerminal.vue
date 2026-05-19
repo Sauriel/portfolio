@@ -1,12 +1,12 @@
 <template>
-  <BaseCard
+  <UiCard
     tag="section"
     title="Terminal"
     icon="iconoir:terminal-tag"
     style="height: 350px"
   >
     Terminal
-  </BaseCard>
+  </UiCard>
 </template>
 
 <style scoped>

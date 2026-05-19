@@ -1,5 +1,5 @@
 <template>
-  <BaseCard
+  <UiCard
     tag="section"
     title="Code"
     icon="tabler:code"
@@ -8,7 +8,7 @@
     style="height: 400px"
   >
     Code
-  </BaseCard>
+  </UiCard>
 </template>
 
 <style scoped>

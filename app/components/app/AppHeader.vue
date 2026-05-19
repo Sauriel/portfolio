@@ -1,18 +1,18 @@
 <template>
-  <BaseCard tag="header" class="app-header">
+  <UiCard tag="header" class="app-header">
     <h1>Hello, I'm <em>Sauriel</em></h1>
     <p class="subline">
       I weave code, write stories, create worlds, <br />and explore everything
       geeky.
     </p>
     <div class="chips">
-      <BaseChip icon="tabler:code">Developer</BaseChip>
-      <BaseChip icon="ph:books-fill">Writer</BaseChip>
-      <BaseChip icon="ion:ios-game-controller-b">Gamer</BaseChip>
-      <BaseChip icon="iconoir:hexagon-dice">Roleplayer</BaseChip>
-      <BaseChip icon="simple-icons:endeavouros">Linux User</BaseChip>
-      <BaseChip icon="fa7-brands:empire">Star Wars Fan</BaseChip>
-      <BaseChip icon="fluent:animal-dog-24-filled">Dog Daddy</BaseChip>
+      <UiChip icon="tabler:code">Developer</UiChip>
+      <UiChip icon="ph:books-fill">Writer</UiChip>
+      <UiChip icon="ion:ios-game-controller-b">Gamer</UiChip>
+      <UiChip icon="iconoir:hexagon-dice">Roleplayer</UiChip>
+      <UiChip icon="simple-icons:endeavouros">Linux User</UiChip>
+      <UiChip icon="fa7-brands:empire">Star Wars Fan</UiChip>
+      <UiChip icon="fluent:animal-dog-24-filled">Dog Daddy</UiChip>
     </div>
     <hr class="fade-out-divider" />
     <article class="whoami">
@@ -23,7 +23,7 @@
       </p>
     </article>
     <AppHeaderActions class="actions" />
-  </BaseCard>
+  </UiCard>
 </template>
 
 <style scoped>

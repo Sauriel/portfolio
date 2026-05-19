@@ -1,5 +1,5 @@
 <template>
-  <BaseCard tag="section" style="height: 150px"> Widget </BaseCard>
+  <UiCard tag="section" style="height: 150px"> Widget </UiCard>
 </template>
 
 <style scoped>

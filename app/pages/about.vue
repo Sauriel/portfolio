@@ -1,14 +1,5 @@
 <template>
-  <UiCard
-    tag="section"
-    title="Stories"
-    icon="ph:books-fill"
-    link-text="View all"
-    link-href="/stories"
-    style="height: 400px"
-  >
-    Stories
-  </UiCard>
+  <div>about</div>
 </template>
 
 <style scoped>
