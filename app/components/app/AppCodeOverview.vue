@@ -5,7 +5,6 @@
     icon="tabler:code"
     link-text="View all projects"
     link-href="/code"
-    style="height: 400px"
   >
     Code
   </UiCard>

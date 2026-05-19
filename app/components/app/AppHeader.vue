@@ -28,7 +28,7 @@
 
 <style scoped>
 .app-header {
-  background-image: url('~/assets/images/header-space.png');
+  background-image: url('~/assets/images/header-space.webp');
   background-size: cover;
   background-position: center;
   padding: 6rem 2rem 2rem;

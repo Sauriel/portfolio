@@ -5,7 +5,6 @@
     icon="ph:books-fill"
     link-text="View all"
     link-href="/stories"
-    style="height: 400px"
   >
     Stories
   </UiCard>
