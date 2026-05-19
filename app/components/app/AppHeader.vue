@@ -1,11 +1,11 @@
 <template>
   <UiCard tag="header" class="app-header">
     <h1>Hello, I'm <em>Sauriel</em></h1>
-    <p class="subline">
+    <p v-if="isHome" class="subline">
       I weave code, write stories, create worlds, <br />and explore everything
       geeky.
     </p>
-    <div class="chips">
+    <div v-if="isHome" class="chips">
       <UiChip icon="tabler:code">Developer</UiChip>
       <UiChip icon="ph:books-fill">Writer</UiChip>
       <UiChip icon="ion:ios-game-controller-b">Gamer</UiChip>
@@ -14,8 +14,8 @@
       <UiChip icon="fa7-brands:empire">Star Wars Fan</UiChip>
       <UiChip icon="fluent:animal-dog-24-filled">Dog Daddy</UiChip>
     </div>
-    <hr class="fade-out-divider" />
-    <article class="whoami">
+    <hr v-if="isHome" class="fade-out-divider" />
+    <article v-if="isHome" class="whoami">
       <header>$ whoami</header>
       <p>
         nerdydev &mdash; overthinker &mdash; problem solver &mdash; lifelong
@@ -120,14 +120,7 @@
 </style>
 
 <script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
+const route = useRoute();
 
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
+const isHome = computed(() => route.name === 'index');
 </script>
