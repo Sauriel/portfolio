@@ -29,10 +29,9 @@
 <style scoped>
 .app-header {
   background-image: url('~/assets/images/header-space.png');
-  height: 450px;
   background-size: cover;
   background-position: center;
-  padding: 2rem;
+  padding: 6rem 2rem 2rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -66,6 +65,7 @@
 .chips {
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .fade-out-divider {

@@ -13,7 +13,7 @@
 .default-layout {
   grid-area: layout;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: minmax(180px, 1fr) repeat(4, 1fr) minmax(180px, 1fr);
   grid-template-rows: auto 1fr repeat(4, auto);
   /* grid-template-areas:
     "nav      header   header   header   header   header"
@@ -47,6 +47,33 @@
   /* grid-area: footer; */
   grid-column: 1 / -1;
   grid-row: 6 / -1;
+}
+
+@media screen and (max-width: 768px) {
+  .default-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .nav {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .widget {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+  }
+
+  .footer {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
 }
 </style>
 

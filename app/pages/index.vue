@@ -11,7 +11,7 @@
 <style scoped>
 .main {
   display: grid;
-  grid-column: 1 / 7;
+  grid-column: 1 / -1;
   grid-row: 2 / 6;
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
@@ -40,6 +40,41 @@
 .blog {
   grid-column: 4 / -1;
   grid-row: 4 / 5;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: grid;
+    grid-row: 4 / 5;
+    grid-template-columns: subgrid;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  .blog {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .code {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .stories {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+  }
+
+  .terminal {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+  }
+
+  .links {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
 }
 </style>
 
