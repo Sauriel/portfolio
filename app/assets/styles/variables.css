@@ -56,13 +56,7 @@
   --border-strong: rgba(255, 255, 255, 0.16);
 
   /* === Gradients === */
-  --gradient-primary: linear-gradient(
-    135deg,
-    #0b1020 0%,
-    #131a33 35%,
-    #1b2140 70%,
-    #24183f 100%
-  );
+  --gradient-primary: linear-gradient(135deg, #0b1020 0%, #131a33 35%, #1b2140 70%, #24183f 100%);
 
   --gradient-nebula: radial-gradient(
     circle at center,
@@ -72,11 +66,7 @@
     transparent 100%
   );
 
-  --gradient-glow: linear-gradient(
-    135deg,
-    rgba(187, 134, 252, 0.18),
-    rgba(110, 168, 254, 0.1)
-  );
+  --gradient-glow: linear-gradient(135deg, rgba(187, 134, 252, 0.18), rgba(110, 168, 254, 0.1));
 
   /* === Blur & Radius === */
   --blur-amount: 18px;

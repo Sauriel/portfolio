@@ -10,7 +10,7 @@
 .app {
   display: grid;
   grid-template-columns: 1fr 1200px 1fr;
-  grid-template-areas: ". layout .";
+  grid-template-areas: '. layout .';
   margin: 1rem 0;
 }
 </style>

@@ -1,5 +1,5 @@
-import type { RouteNamedMap } from "vue-router/auto-routes";
+import type { RouteNamedMap } from 'vue-router/auto-routes';
 
-type RoutePaths = RouteNamedMap[keyof RouteNamedMap]["path"];
+type RoutePaths = RouteNamedMap[keyof RouteNamedMap]['path'];
 
 export type { RoutePaths };

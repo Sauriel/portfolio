@@ -5,14 +5,6 @@
   </span>
 </template>
 
-<script setup lang="ts">
-type Props = {
-  icon?: string;
-};
-
-const { icon } = defineProps<Props>();
-</script>
-
 <style scoped>
 .chip {
   display: inline-flex;
@@ -35,3 +27,11 @@ const { icon } = defineProps<Props>();
   color: var(--text-primary);
 }
 </style>
+
+<script setup lang="ts">
+type Props = {
+  icon?: string
+};
+
+const { icon } = defineProps<Props>();
+</script>

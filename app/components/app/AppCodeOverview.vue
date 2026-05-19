@@ -3,13 +3,17 @@
     tag="section"
     title="Code"
     icon="tabler:code"
-    linkText="View all projects"
-    linkHref="/code"
+    link-text="View all projects"
+    link-href="/code"
     style="height: 400px"
   >
     Code
   </BaseCard>
 </template>
+
+<style scoped>
+/* ToDo: Add style content */
+</style>
 
 <script setup lang="ts">
 // type Props = {
@@ -23,7 +27,3 @@
 // const props = defineProps<Props>();
 // const emit = defineEmits<Emits>();
 </script>
-
-<style scoped>
-/* ToDo: Add style content */
-</style>

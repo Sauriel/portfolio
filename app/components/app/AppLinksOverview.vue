@@ -3,13 +3,17 @@
     tag="section"
     title="Links"
     icon="mynaui:link"
-    linkText="View all links"
-    linkHref="/links"
+    link-text="View all links"
+    link-href="/links"
     style="height: 250px"
   >
     Links
   </BaseCard>
 </template>
+
+<style scoped>
+/* ToDo: Add style content */
+</style>
 
 <script setup lang="ts">
 // type Props = {
@@ -23,7 +27,3 @@
 // const props = defineProps<Props>();
 // const emit = defineEmits<Emits>();
 </script>
-
-<style scoped>
-/* ToDo: Add style content */
-</style>

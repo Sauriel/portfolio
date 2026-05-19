@@ -2,6 +2,10 @@
   <div>code</div>
 </template>
 
+<style scoped>
+/* ToDo: Add style content */
+</style>
+
 <script setup lang="ts">
 // type Props = {
 //   value: string;
@@ -14,7 +18,3 @@
 // const props = defineProps<Props>();
 // const emit = defineEmits<Emits>();
 </script>
-
-<style scoped>
-/* ToDo: Add style content */
-</style>

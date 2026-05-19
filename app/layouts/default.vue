@@ -9,19 +9,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
-
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
-</script>
-
 <style scoped>
 .default-layout {
   grid-area: layout;
@@ -62,3 +49,16 @@
   grid-row: 6 / -1;
 }
 </style>
+
+<script setup lang="ts">
+// type Props = {
+//   value: string;
+// }
+
+// type Emits = {
+//   (e: 'update', payload: string): void;
+// }
+
+// const props = defineProps<Props>();
+// const emit = defineEmits<Emits>();
+</script>

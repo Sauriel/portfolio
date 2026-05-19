@@ -8,7 +8,7 @@
       <Icon name="ci:search-magnifying-glass" />
     </button>
     <div class="search-input" :class="{ hidden: !enableSearch }">
-      <input type="text" placeholder="Search..." v-model="searchQuery" />
+      <input v-model="searchQuery" type="text" placeholder="Search..." />
     </div>
     <button type="button" class="action-btn" @click="darkMode = !darkMode">
       <Transition name="slide">
@@ -16,22 +16,14 @@
         <Icon v-else name="ri:sun-line" />
       </Transition>
     </button>
-    <button type="button" class="action-btn" @click="openRandomPage">
-      <Icon name="game-icons:card-random" />
+    <button type="button" class="action-btn" @click="changeLanguage">
+      <Transition name="slide">
+        <span v-if="language === 'en'">EN</span>
+        <span v-else>DE</span>
+      </Transition>
     </button>
   </div>
 </template>
-
-<script setup lang="ts">
-const darkMode = ref<boolean>(true);
-const enableSearch = ref<boolean>(false);
-const searchQuery = ref<string>("");
-
-function openRandomPage() {
-  // Implement logic to open a random page
-  alert("Random page feature is not implemented yet.");
-}
-</script>
 
 <style scoped>
 .actions {
@@ -44,7 +36,7 @@ function openRandomPage() {
 
 .action-btn {
   display: grid;
-  grid-template-areas: "icon";
+  grid-template-areas: 'icon';
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
@@ -104,3 +96,14 @@ function openRandomPage() {
   outline: none;
 }
 </style>
+
+<script setup lang="ts">
+const darkMode = ref<boolean>(true);
+const enableSearch = ref<boolean>(false);
+const searchQuery = ref<string>('');
+const language = ref<'en' | 'de'>('en');
+
+function changeLanguage() {
+  language.value = language.value === 'en' ? 'de' : 'en';
+}
+</script>

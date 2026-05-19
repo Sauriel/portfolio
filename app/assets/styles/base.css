@@ -1,6 +1,5 @@
 body {
-  background:
-    var(--gradient-nebula), var(--gradient-primary), var(--space-dark);
+  background: var(--gradient-nebula), var(--gradient-primary), var(--space-dark);
 
   color: var(--text-primary);
 }

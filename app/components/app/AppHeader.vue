@@ -26,22 +26,9 @@
   </BaseCard>
 </template>
 
-<script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
-
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
-</script>
-
 <style scoped>
 .app-header {
-  background-image: url("~/assets/images/header-space.png");
+  background-image: url('~/assets/images/header-space.png');
   height: 450px;
   background-size: cover;
   background-position: center;
@@ -54,13 +41,13 @@
 }
 
 .app-header h1 {
-  font-family: "Cormorant SC", serif;
+  font-family: 'Cormorant SC', serif;
   font-size: 3rem;
   line-height: 1;
 }
 
 .app-header h1 em {
-  font-family: "Story Script", cursive;
+  font-family: 'Story Script', cursive;
   font-weight: 700;
   background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue));
   background-clip: text;
@@ -70,7 +57,7 @@
 }
 
 .subline {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Cormorant Garamond', serif;
   color: var(--text-secondary);
   font-size: 1.5rem;
   margin: 0;
@@ -90,7 +77,7 @@
 }
 
 .whoami {
-  font-family: "Victor Mono", monospace;
+  font-family: 'Victor Mono', monospace;
   color: var(--text-secondary);
 }
 
@@ -131,3 +118,16 @@
   right: 1rem;
 }
 </style>
+
+<script setup lang="ts">
+// type Props = {
+//   value: string;
+// }
+
+// type Emits = {
+//   (e: 'update', payload: string): void;
+// }
+
+// const props = defineProps<Props>();
+// const emit = defineEmits<Emits>();
+</script>

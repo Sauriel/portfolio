@@ -14,33 +14,6 @@
   </component>
 </template>
 
-<script setup lang="ts">
-import type { RoutePaths } from "~/types/nuxt";
-
-type Props = {
-  tag: "header" | "main" | "footer" | "section" | "article" | "div" | "aside";
-};
-
-type CardHeaderProps = {
-  title?: string;
-  icon?: string;
-  linkText?: never;
-  linkHref?: never;
-};
-
-type MandatoryCardHeaderProps = {
-  title: string;
-  icon: string;
-  linkText: string;
-  linkHref: RoutePaths;
-};
-
-const { tag, title, icon, linkText, linkHref } = defineProps<
-  Props & (CardHeaderProps | MandatoryCardHeaderProps)
->();
-// const emit = defineEmits<Emits>();
-</script>
-
 <style scoped>
 .card {
   background: var(--glass-bg);
@@ -72,3 +45,30 @@ const { tag, title, icon, linkText, linkHref } = defineProps<
   gap: 0.5ch;
 }
 </style>
+
+<script setup lang="ts">
+import type { RoutePaths } from '~/types/nuxt';
+
+type Props = {
+  tag: 'header' | 'main' | 'footer' | 'section' | 'article' | 'div' | 'aside'
+};
+
+type CardHeaderProps = {
+  title?: string
+  icon?: string
+  linkText?: never
+  linkHref?: never
+};
+
+type MandatoryCardHeaderProps = {
+  title: string
+  icon: string
+  linkText: string
+  linkHref: RoutePaths
+};
+
+const { tag, title, icon, linkText, linkHref } = defineProps<
+  Props & (CardHeaderProps | MandatoryCardHeaderProps)
+>();
+// const emit = defineEmits<Emits>();
+</script>

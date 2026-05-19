@@ -3,13 +3,17 @@
     tag="section"
     title="Blog"
     icon="nrk:latest-news"
-    linkText="View all blog posts"
-    linkHref="/blog"
+    link-text="View all blog posts"
+    link-href="/blog"
     style="height: 350px"
   >
     Blog
   </BaseCard>
 </template>
+
+<style scoped>
+/* ToDo: Add style content */
+</style>
 
 <script setup lang="ts">
 // type Props = {
@@ -23,7 +27,3 @@
 // const props = defineProps<Props>();
 // const emit = defineEmits<Emits>();
 </script>
-
-<style scoped>
-/* ToDo: Add style content */
-</style>
