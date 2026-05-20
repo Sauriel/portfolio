@@ -1,9 +1,9 @@
 <template>
   <article class="story-entry">
     <header>{{ info.name }}</header>
-    <div class="icon">
+    <UiSimpleCard class="icon">
       <Icon :name="info.icon" />
-    </div>
+    </UiSimpleCard>
     <p>{{ info.description }}</p>
     <footer>
       <div class="tags">
@@ -29,9 +29,6 @@
 
 .story-entry .icon {
   grid-area: icon;
-  background-color: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-small);
   width: 3.5rem;
   height: 3.5rem;
   display: flex;

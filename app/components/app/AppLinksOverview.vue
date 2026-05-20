@@ -5,25 +5,60 @@
     icon="mynaui:link"
     link-text="View all links"
     link-href="/links"
-    style="height: 250px"
   >
-    Links
+    <div class="link-list">
+      <LinkEntry v-for="link in links" :key="link.href" :link="link" />
+    </div>
   </UiCard>
 </template>
 
 <style scoped>
-/* ToDo: Add style content */
+.link-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 1rem;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .link-list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 <script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
+import type { LinkOverview } from '~/types/links';
+import LinkEntry from '../links/LinkEntry.vue';
 
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
+const links: LinkOverview[] = [
+  {
+    title: 'awesome-lists',
+    href: 'https://github.com/sindresorhus/awesome',
+    icon: 'mdi:github',
+    description: 'A collection of awesome lists on various topics.',
+    categories: ['resources', 'collections'],
+  },
+  {
+    title: 'awesome-lists',
+    href: 'https://github.com/sindresorhus/awesome2',
+    icon: 'mdi:github',
+    description: 'A collection of awesome lists on various topics.',
+    categories: ['resources', 'collections'],
+  },
+  {
+    title: 'awesome-lists',
+    href: 'https://github.com/sindresorhus/awesome3',
+    icon: 'mdi:github',
+    description: 'A collection of awesome lists on various topics.',
+    categories: ['resources', 'collections'],
+  },
+  {
+    title: 'awesome-lists',
+    href: 'https://github.com/sindresorhus/awesome4',
+    icon: 'mdi:github',
+    description: 'A collection of awesome lists on various topics.',
+    categories: ['resources', 'collections'],
+  },
+];
 </script>
