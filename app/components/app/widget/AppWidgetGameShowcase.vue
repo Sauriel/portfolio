@@ -1,25 +1,33 @@
 <template>
-  <section class="games-showcase">
-    <AppWidgetGameCard
-      :game="game1"
-      :focused="focusedGame === 'game1'"
-      @select="() => setFocused('game1')"
-    />
-    <AppWidgetGameCard
-      :game="game2"
-      :focused="focusedGame === 'game2'"
-      @select="() => setFocused('game2')"
-    />
-  </section>
+  <div class="games-showcase-wrapper">
+    <section class="games-showcase">
+      <AppWidgetGameCard
+        :game="game1"
+        :focused="focusedGame === 'game1'"
+        @select="() => setFocused('game1')"
+      />
+      <AppWidgetGameCard
+        :game="game2"
+        :focused="focusedGame === 'game2'"
+        @select="() => setFocused('game2')"
+      />
+    </section>
+  </div>
 </template>
 
 <style scoped>
+.games-showcase-wrapper {
+  container-type: inline-size;
+  width: 100%;
+}
+
 .games-showcase {
+  --gap: 0.5rem;
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: var(--gap);
   width: 100%;
-  height: 144px;
+  height: calc(((100cqw - var(--gap)) / 2) * 1.5);
   transition: height var(--transition-normal);
   overflow: hidden;
 }
@@ -33,7 +41,7 @@
 }
 
 .games-showcase:has(.game-card.focused) {
-  height: 300px;
+  height: calc(100cqw * 1.5);
 }
 
 .games-showcase::v-deep(.game-card.focused) {
