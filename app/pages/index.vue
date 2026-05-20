@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main id="main">
     <AppCodeOverview class="code" />
     <AppStoriesOverview class="stories" />
     <AppLinksOverview class="links" />
@@ -9,7 +9,7 @@
 </template>
 
 <style scoped>
-.main {
+#main {
   display: grid;
   grid-column: 1 / -1;
   grid-row: 2 / 6;
