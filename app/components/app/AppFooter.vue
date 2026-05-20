@@ -1,11 +1,13 @@
 <template>
   <UiCard tag="footer" class="app-footer">
-    <div class="app-footer-wrapper">
-      <p class="footnote">
-        &copy; {{ new Date().getFullYear() }} {{ hostname }} &mdash; Made  without coffee but too much curiosity.
-      </p>
-      <NuxtLink class="legal" to="/legal-notice">Legal Notice</NuxtLink>
-    </div>
+    <ClientOnly>
+      <div class="app-footer-wrapper">
+        <p class="footnote">
+          &copy; {{ new Date().getFullYear() }} {{ hostname }} &mdash; Made  without coffee but too much curiosity.
+        </p>
+        <NuxtLink class="legal" to="/legal-notice">Legal Notice</NuxtLink>
+      </div>
+    </ClientOnly>
   </UiCard>
 </template>
 

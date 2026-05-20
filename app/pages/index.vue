@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main {
+  #main {
     display: grid;
     grid-row: 4 / 5;
     grid-template-columns: subgrid;

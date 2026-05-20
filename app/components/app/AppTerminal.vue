@@ -3,7 +3,6 @@
     tag="section"
     title="Terminal"
     icon="iconoir:terminal-tag"
-    style="height: 350px"
   >
     Terminal
   </UiCard>

@@ -3,6 +3,7 @@
     <button
       type="button"
       class="action-btn"
+      aria-label="Toggle search"
       @click="enableSearch = !enableSearch"
     >
       <Icon name="ci:search-magnifying-glass" />
@@ -10,13 +11,23 @@
     <div class="search-input" :class="{ hidden: !enableSearch }">
       <input v-model="searchQuery" type="text" placeholder="Search..." />
     </div>
-    <button type="button" class="action-btn" @click="darkMode = !darkMode">
+    <button
+      type="button"
+      class="action-btn"
+      aria-label="Toggle dark mode"
+      @click="darkMode = !darkMode"
+    >
       <Transition name="slide">
         <Icon v-if="darkMode" name="ri:moon-line" />
         <Icon v-else name="ri:sun-line" />
       </Transition>
     </button>
-    <button type="button" class="action-btn" @click="changeLanguage">
+    <button
+      type="button"
+      class="action-btn"
+      aria-label="Change language"
+      @click="changeLanguage"
+    >
       <Transition name="slide">
         <span v-if="language === 'en'">EN</span>
         <span v-else>DE</span>

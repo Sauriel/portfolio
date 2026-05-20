@@ -84,12 +84,7 @@ type Props = {
   info: StoryOverviewEntry
 };
 
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
 const { info } = defineProps<Props>();
-// const emit = defineEmits<Emits>();
 
 const publishedDate = computed(() => {
   return info.publishedAt.toLocaleDateString('de-DE', {

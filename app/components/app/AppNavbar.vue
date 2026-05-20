@@ -36,13 +36,23 @@
       </NuxtLink>
     </nav>
     <footer class="app-navbar-footer">
-      <NuxtLink to="https://github.com/Sauriel" target="_blank" class="footer-link">
+      <NuxtLink
+        to="https://github.com/Sauriel"
+        aria-label="GitHub Profile"
+        target="_blank"
+        class="footer-link"
+      >
         <Icon name="mdi:github" />
       </NuxtLink>
-      <NuxtLink to="https://discord.com/users/248765748858585088" target="_blank" class="footer-link">
+      <NuxtLink
+        to="https://discord.com/users/248765748858585088"
+        aria-label="Discord Profile"
+        target="_blank"
+        class="footer-link"
+      >
         <Icon name="ic:baseline-discord" />
       </NuxtLink>
-      <NuxtLink to="mailto:contact@sauriel.net" class="footer-link">
+      <NuxtLink to="mailto:contact@sauriel.net" aria-label="Email" class="footer-link">
         <Icon name="uil:envelope-alt" />
       </NuxtLink>
     </footer>

@@ -22,3 +22,17 @@
   }
 }
 </style>
+
+<script setup lang="ts">
+useHead({
+  title: 'Sauriel - Portfolio',
+  meta: [
+    { name: 'description', content: 'Sauriel\'s personal portfolio website showcasing projects, skills, and contact information.' },
+    { name: 'keywords', content: 'Sauriel, portfolio, projects, skills, contact' },
+    { name: 'author', content: 'Sauriel' },
+  ],
+  htmlAttrs: {
+    lang: 'en',
+  },
+});
+</script>
