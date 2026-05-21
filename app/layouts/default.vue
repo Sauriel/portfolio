@@ -3,7 +3,6 @@
     <NuxtRouteAnnouncer />
     <AppHeader class="header" />
     <AppNavbar class="nav" />
-    <AppWidget class="widget" />
     <slot />
     <AppFooter class="footer" />
   </div>
@@ -14,7 +13,7 @@
   grid-area: layout;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) repeat(4, 1fr) minmax(220px, 1fr);
-  grid-template-rows: auto 1fr repeat(4, auto);
+  grid-template-rows: repeat(6, auto);
   /* grid-template-areas:
     "nav      header   header   header   header   header"
     "nav      main     main     main     main     main"
@@ -35,12 +34,6 @@
   /* grid-area: header; */
   grid-column: 2 / -1;
   grid-row: 1 / 2;
-}
-
-.widget {
-  /* grid-area: widget; */
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
 }
 
 .footer {

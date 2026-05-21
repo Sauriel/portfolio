@@ -36,6 +36,7 @@
   display: grid;
   grid-template-rows: 2.5rem 1fr 2.5rem;
   flex-grow: 1;
+  max-height: 600px;
 }
 
 .file-header {

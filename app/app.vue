@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1200px 1fr;
   grid-template-areas: '. layout .';
   padding: 1rem 0;
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 1280px) {

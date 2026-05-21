@@ -1,5 +1,6 @@
 <template>
   <main id="main">
+    <AppWidget class="widget" />
     <AppCodeOverview class="code" />
     <AppStoriesOverview class="stories" />
     <AppLinksOverview class="links" />
@@ -17,10 +18,14 @@
   grid-template-rows: subgrid;
 }
 
+.widget {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
 .code {
   grid-column: 2 / 5;
   grid-row: 1 / 3;
-  height: 50vh;
 }
 
 .stories {

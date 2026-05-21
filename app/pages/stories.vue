@@ -1,9 +1,14 @@
 <template>
-  <div>stories</div>
+  <UiCard id="main" tag="main">
+    <LoremIpsum />
+  </UiCard>
 </template>
 
 <style scoped>
-/* ToDo: Add style content */
+#main {
+  grid-column: 2 / -1;
+  grid-row: 2 / -2;
+}
 </style>
 
 <script setup lang="ts">

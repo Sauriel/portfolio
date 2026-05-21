@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/icon',
-    '@nuxt/hints',
+    // '@nuxt/hints',
   ],
 
   ssr: true,

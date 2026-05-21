@@ -1,5 +1,5 @@
 <template>
-  <UiCard tag="aside" class="app-navbar">
+  <UiCard tag="aside" class="app-navbar" :class="{ sticky: !isHome }">
     <UiHexagon size="120px" color="var(--accent-purple)">
       <UiHexagon size="114px" color="var(--bg-primary)" class="logo">
         <UiLogo />
@@ -66,6 +66,12 @@
   align-items: center;
   gap: 0.5rem;
   padding: 3rem 1rem 1rem;
+  z-index: 99;
+}
+
+.app-navbar.sticky {
+  position: sticky;
+  top: 1rem;
 }
 
 .logo {
@@ -143,14 +149,7 @@
 </style>
 
 <script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
+const route = useRoute();
 
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
+const isHome = computed(() => route.name === 'index');
 </script>

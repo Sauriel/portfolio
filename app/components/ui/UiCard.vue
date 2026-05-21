@@ -52,7 +52,7 @@
 import type { RoutePaths } from '~/types/nuxt';
 
 type Props = {
-  tag: 'header' | 'main' | 'footer' | 'section' | 'article' | 'div' | 'aside'
+  tag?: 'header' | 'main' | 'footer' | 'section' | 'article' | 'div' | 'aside'
 };
 
 type CardHeaderProps = {
@@ -69,7 +69,7 @@ type MandatoryCardHeaderProps = {
   linkHref: RoutePaths
 };
 
-const { tag, title, icon, linkText, linkHref } = defineProps<
+const { tag = 'div', title, icon, linkText, linkHref } = defineProps<
   Props & (CardHeaderProps | MandatoryCardHeaderProps)
 >();
 // const emit = defineEmits<Emits>();
