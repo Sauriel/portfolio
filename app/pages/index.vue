@@ -20,6 +20,7 @@
 .code {
   grid-column: 2 / 5;
   grid-row: 1 / 3;
+  height: 50vh;
 }
 
 .stories {
