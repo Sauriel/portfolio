@@ -59,7 +59,7 @@
   .code {
     grid-column: 1 / -1;
     grid-row: 2 / 3;
-    height: 75dvh;
+    height: 75vh;
     width: calc(100vw - 16px);
   }
 
@@ -71,7 +71,7 @@
   .terminal {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
-    height: 50dvh;
+    height: 50vh;
     width: calc(100vw - 16px);
   }
 
