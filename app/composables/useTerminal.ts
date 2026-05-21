@@ -1,6 +1,7 @@
 import { Terminal } from '@xterm/xterm';
 import { commands } from './terminal/commands';
 import { createInputHandler } from './terminal/input-handler';
+import { createPrompt } from './terminal/prompt';
 
 /**
  * Initialize and configure an interactive terminal instance.
@@ -55,14 +56,15 @@ export function useTerminal(terminalEl: HTMLDivElement) {
   // Store command registry for help command access
   (terminal as any).__commandRegistry = commands;
 
-  const prompt = '\x1B[32m➜\x1B[0m \x1B[36m~\x1B[0m $ ';
-
   // Display welcome message
   terminal.writeln('\x1B[1;32mWelcome to the Portfolio Terminal!\x1B[0m');
   terminal.writeln('Type \x1B[33mhelp\x1B[0m to see available commands.\r\n');
+
+  // Show initial prompt
+  const { prompt } = createPrompt();
   terminal.write(prompt);
 
-  // Set up input handling
-  const { handleInput } = createInputHandler(terminal, commands, prompt);
+  // Set up input handling with dynamic prompt
+  const { handleInput } = createInputHandler(terminal, commands, createPrompt);
   terminal.onData(handleInput);
 }

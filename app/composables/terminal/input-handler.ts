@@ -8,7 +8,7 @@ import type { CommandRegistry } from './types';
 export function createInputHandler(
   terminal: Terminal,
   commands: CommandRegistry,
-  prompt: string,
+  promptGetter: () => { prompt: string, inputLineLength: number },
 ) {
   let currentLine = '';
   const commandHistory: string[] = [];
@@ -48,29 +48,36 @@ export function createInputHandler(
    * Clear the current input line
    */
   const clearLine = () => {
-    terminal.write(`\r${' '.repeat(prompt.length + currentLine.length)}\r`);
+    const { inputLineLength } = promptGetter();
+    terminal.write(`\r${' '.repeat(inputLineLength + currentLine.length)}\r`);
   };
 
   /**
    * Navigate through command history
    */
   const navigateHistory = (direction: 'up' | 'down') => {
+    const { prompt, inputLineLength } = promptGetter();
+
     if (direction === 'up' && historyIndex > 0) {
       historyIndex--;
       clearLine();
       currentLine = commandHistory[historyIndex] || '';
-      terminal.write(prompt + currentLine);
+      // Write only the input line part of the prompt
+      const inputPrompt = prompt.split('\r\n')[1] || '';
+      terminal.write(inputPrompt + currentLine);
     } else if (direction === 'down') {
       if (historyIndex < commandHistory.length - 1) {
         historyIndex++;
         clearLine();
         currentLine = commandHistory[historyIndex] || '';
-        terminal.write(prompt + currentLine);
+        const inputPrompt = prompt.split('\r\n')[1] || '';
+        terminal.write(inputPrompt + currentLine);
       } else if (historyIndex === commandHistory.length - 1) {
         historyIndex = commandHistory.length;
         clearLine();
         currentLine = '';
-        terminal.write(prompt);
+        const inputPrompt = prompt.split('\r\n')[1] || '';
+        terminal.write(inputPrompt);
       }
     }
   };
@@ -79,6 +86,7 @@ export function createInputHandler(
    * Handle tab completion
    */
   const handleTabCompletion = () => {
+    const { prompt, inputLineLength } = promptGetter();
     const matches = Object.keys(commands).filter(cmd =>
       cmd.startsWith(currentLine.toLowerCase()),
     );
@@ -86,10 +94,12 @@ export function createInputHandler(
     if (matches.length === 1) {
       clearLine();
       currentLine = matches[0] ?? '';
-      terminal.write(prompt + currentLine);
+      const inputPrompt = prompt.split('\r\n')[1] || '';
+      terminal.write(inputPrompt + currentLine);
     } else if (matches.length > 1) {
       terminal.writeln(`\r\n${matches.join('  ')}`);
-      terminal.write(prompt + currentLine);
+      const inputPrompt = prompt.split('\r\n')[1] || '';
+      terminal.write(inputPrompt + currentLine);
     }
   };
 
@@ -98,6 +108,7 @@ export function createInputHandler(
    */
   const handleInput = (data: string) => {
     const code = data.charCodeAt(0);
+    const { prompt } = promptGetter();
 
     // Enter key
     if (data === '\r' || data === '\n') {
@@ -138,7 +149,7 @@ export function createInputHandler(
     // Ctrl+L - Clear screen
     else if (data === '\x0C') {
       terminal.clear();
-      terminal.write(prompt + currentLine);
+      terminal.write(prompt);
     }
     // Printable characters
     else if (code >= 32 && code < 127) {

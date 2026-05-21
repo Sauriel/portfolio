@@ -9,6 +9,7 @@ composables/
 ├── useTerminal.ts              # Haupt-Composable
 └── terminal/
     ├── types.ts                # TypeScript Type Definitionen
+    ├── prompt.ts               # Prompt-Generator (quick-term style)
     ├── input-handler.ts        # Input-Verarbeitung und Tastatur-Handler
     └── commands/
         ├── index.ts            # Command Registry
