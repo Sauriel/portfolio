@@ -1,7 +1,5 @@
 <template>
-  <ClientOnly>
-    <div :id="id" ref="codeEditorRef" class="code-editor"></div>
-  </ClientOnly>
+  <div :id="id" ref="codeEditorRef" class="code-editor"></div>
 </template>
 
 <script setup lang="ts">

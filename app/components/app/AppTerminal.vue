@@ -4,14 +4,6 @@
     title="Terminal"
     icon="iconoir:terminal-tag"
   >
-    <TerminalInstance class="terminal" />
+    <TerminalInstance />
   </UiCard>
 </template>
-
-<style scoped>
-.terminal {
-  border-bottom-left-radius: var(--radius-medium);
-  border-bottom-right-radius: var(--radius-medium);
-  overflow: hidden;
-}
-</style>
