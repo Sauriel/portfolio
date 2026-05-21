@@ -18,7 +18,7 @@
   .app {
     grid-template-columns: 1fr;
     grid-template-areas: 'layout';
-    padding: 4px;
+    padding: 8px;
   }
 }
 </style>

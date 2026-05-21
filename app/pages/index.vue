@@ -59,6 +59,8 @@
   .code {
     grid-column: 1 / -1;
     grid-row: 2 / 3;
+    height: 75dvh;
+    width: calc(100vw - 16px);
   }
 
   .stories {
@@ -69,6 +71,8 @@
   .terminal {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
+    height: 50dvh;
+    width: calc(100vw - 16px);
   }
 
   .links {

@@ -1,3 +1,4 @@
+import { FitAddon } from '@xterm/addon-fit';
 import { Terminal } from '@xterm/xterm';
 import { commands } from './terminal/commands';
 import { createInputHandler } from './terminal/input-handler';
@@ -50,8 +51,11 @@ export function useTerminal(terminalEl: HTMLDivElement) {
       brightWhite: '#e6edf3', // --text-primary
     },
   });
+  const fitAddon = new FitAddon();
+  terminal.loadAddon(fitAddon);
 
   terminal.open(terminalEl);
+  fitAddon.fit();
 
   // Store command registry for help command access
   (terminal as any).__commandRegistry = commands;
