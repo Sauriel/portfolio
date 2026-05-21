@@ -4,23 +4,14 @@
     title="Terminal"
     icon="iconoir:terminal-tag"
   >
-    Terminal
+    <TerminalInstance class="terminal" />
   </UiCard>
 </template>
 
 <style scoped>
-/* ToDo: Add style content */
+.terminal {
+  border-bottom-left-radius: var(--radius-medium);
+  border-bottom-right-radius: var(--radius-medium);
+  overflow: hidden;
+}
 </style>
-
-<script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
-
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
-</script>
