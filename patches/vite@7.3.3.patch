@@ -1,0 +1,13 @@
+diff --git a/dist/node/chunks/config.js b/dist/node/chunks/config.js
+index 3e669df..3c7fd2f 100644
+--- a/dist/node/chunks/config.js
++++ b/dist/node/chunks/config.js
+@@ -27703,7 +27703,7 @@ function assetImportMetaUrlPlugin(config$2) {
+ 		transform: {
+ 			filter: {
+ 				id: { exclude: [exactRegex(preloadHelperId), exactRegex(CLIENT_ENTRY)] },
+-				code: /new\s+URL.+import\.meta\.url/s
++				code: /\bnew\s+URL\s*\(\s*(?:'[^']+'|"[^"]+"|`[^`]+`)\s*,\s*import\.meta\.url\b/s
+ 			},
+ 			async handler(code, id) {
+ 				let s;

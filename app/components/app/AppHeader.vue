@@ -1,25 +1,23 @@
 <template>
   <UiCard tag="header" class="app-header">
-    <h1>Hello, I'm <em>Sauriel</em></h1>
+    <h1>{{ t('header.h1') }} <em>{{ t('header.name') }}</em></h1>
     <p v-if="isHome" class="subline">
-      I weave code, write stories, create worlds, <br />and explore everything
-      geeky.
+      {{ t('header.subline1') }} <br />{{ t('header.subline2') }}
     </p>
     <div v-if="isHome" class="chips">
-      <UiChip icon="tabler:code">Developer</UiChip>
-      <UiChip icon="ph:books-fill">Writer</UiChip>
-      <UiChip icon="ion:ios-game-controller-b">Gamer</UiChip>
-      <UiChip icon="iconoir:hexagon-dice">Roleplayer</UiChip>
-      <UiChip icon="simple-icons:endeavouros">Linux User</UiChip>
-      <UiChip icon="fa7-brands:empire">Star Wars Fan</UiChip>
-      <UiChip icon="fluent:animal-dog-24-filled">Dog Daddy</UiChip>
+      <UiChip icon="tabler:code">{{ t('header.tags.developer') }}</UiChip>
+      <UiChip icon="ph:books-fill">{{ t('header.tags.writer') }}</UiChip>
+      <UiChip icon="ion:ios-game-controller-b">{{ t('header.tags.gamer') }}</UiChip>
+      <UiChip icon="iconoir:hexagon-dice">{{ t('header.tags.roleplayer') }}</UiChip>
+      <UiChip icon="simple-icons:endeavouros">{{ t('header.tags.linuxUser') }}</UiChip>
+      <UiChip icon="fa7-brands:empire">{{ t('header.tags.starWarsFan') }}</UiChip>
+      <UiChip icon="fluent:animal-dog-24-filled">{{ t('header.tags.dogDaddy') }}</UiChip>
     </div>
     <hr v-if="isHome" class="fade-out-divider" />
     <article v-if="isHome" class="whoami">
       <header>$ whoami</header>
       <p>
-        nerdydev &mdash; overthinker &mdash; problem solver &mdash; lifelong
-        learner &mdash; frontend evangelist<span class="cursor"></span>
+        {{ t('header.whoami') }}<span class="cursor"></span>
       </p>
     </article>
     <AppHeaderActions class="actions" />
@@ -124,6 +122,7 @@
 const route = useRoute();
 const darkModeStore = useDarkModeStore();
 const { isDarkMode } = storeToRefs(darkModeStore);
+const { t } = useI18n();
 
 const isHome = computed(() => route.name === 'index');
 

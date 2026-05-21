@@ -1,0 +1,18 @@
+{
+  "header": {
+    "h1": "Hello, I'm",
+    "name": "Sauriel",
+    "subline1": "I weave code, write stories, create worlds,",
+    "subline2": "and explore everything geeky.",
+    "tags": {
+      "developer": "Developer",
+      "writer": "Writer",
+      "gamer": "Gamer",
+      "roleplayer": "Roleplayer",
+      "linuxUser": "Linux User",
+      "starWarsFan": "Star Wars Fan",
+      "dogDaddy": "Dog Daddy"
+    },
+    "whoami": "nerdydev — overthinker — problem solver — lifelong learner — frontend evangelist"
+  }
+}

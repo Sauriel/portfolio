@@ -112,12 +112,14 @@
 const darkModeStore = useDarkModeStore();
 const { isDarkMode } = storeToRefs(darkModeStore);
 const { toggleDarkMode } = darkModeStore;
+const { setLocale, locale } = useI18n();
 
 const enableSearch = ref<boolean>(false);
 const searchQuery = ref<string>('');
-const language = ref<'en' | 'de'>('en');
+const language = computed<'en' | 'de'>(() => locale.value);
 
 function changeLanguage() {
-  language.value = language.value === 'en' ? 'de' : 'en';
+  const newLanguage = language.value === 'en' ? 'de' : 'en';
+  setLocale(newLanguage);
 }
 </script>

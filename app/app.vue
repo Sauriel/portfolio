@@ -27,9 +27,10 @@
 <script setup lang="ts">
 const darkModeStore = useDarkModeStore();
 const { isDarkMode } = storeToRefs(darkModeStore);
+const { t } = useI18n();
 
 useHead({
-  title: 'Sauriel - Portfolio',
+  title: () => t('app.title'),
   meta: [
     { name: 'description', content: 'Sauriel\'s personal portfolio website showcasing projects, skills, and contact information.' },
     { name: 'keywords', content: 'Sauriel, portfolio, projects, skills, contact' },
