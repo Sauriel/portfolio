@@ -41,7 +41,7 @@
 }
 
 .white {
-  fill: #efefef;
+  fill: var(--logo-white);
 }
 
 .red {

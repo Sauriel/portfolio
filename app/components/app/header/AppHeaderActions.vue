@@ -15,10 +15,10 @@
       type="button"
       class="action-btn"
       aria-label="Toggle dark mode"
-      @click="darkMode = !darkMode"
+      @click="toggleDarkMode"
     >
       <Transition name="slide">
-        <Icon v-if="darkMode" name="ri:moon-line" />
+        <Icon v-if="isDarkMode" name="ri:moon-line" />
         <Icon v-else name="ri:sun-line" />
       </Transition>
     </button>
@@ -109,7 +109,10 @@
 </style>
 
 <script setup lang="ts">
-const darkMode = ref<boolean>(true);
+const darkModeStore = useDarkModeStore();
+const { isDarkMode } = storeToRefs(darkModeStore);
+const { toggleDarkMode } = darkModeStore;
+
 const enableSearch = ref<boolean>(false);
 const searchQuery = ref<string>('');
 const language = ref<'en' | 'de'>('en');

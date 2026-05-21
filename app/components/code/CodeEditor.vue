@@ -7,13 +7,15 @@ import type { CodeFile } from '~/types/code';
 
 type Props = {
   code: CodeFile
-  theme?: 'vs-dark-custom' | 'vs-dark' | 'vs-light'
+  theme?: 'vs-dark-custom' | 'vs-dark' | 'vs-light' | 'vs-light-custom'
 };
 
 const { code, theme = 'vs-dark' } = defineProps<Props>();
 
 const baseId = useId();
 const codeEditorRef = useTemplateRef('codeEditorRef');
+
+const editorInstance = ref<any | null>(null);
 
 const id = computed(() => `code-editor-${baseId}`);
 
@@ -76,11 +78,27 @@ onMounted(async () => {
       'editorGutter.background': '#0b102073',
     },
   });
+  monacoInstance.editor.defineTheme('vs-light-custom', {
+    base: 'vs',
+    inherit: true,
+    rules: [],
+    colors: {
+      'editor.foreground': '#383a42',
+      'editor.background': '#fafafa73',
+      'editorGutter.background': '#fafafa73',
+    },
+  });
 
-  monacoInstance.editor.create(codeEditorRef.value, {
+  editorInstance.value = monacoInstance.editor.create(codeEditorRef.value, {
     value: code.content,
     language: code.type,
     theme,
   });
+});
+
+watch(() => theme, (newTheme) => {
+  if (editorInstance.value) {
+    editorInstance.value.updateOptions({ theme: newTheme });
+  }
 });
 </script>

@@ -11,7 +11,7 @@
         <Icon :name="fileIcon" />
         {{ selectedFile.name }}
       </header>
-      <CodeEditor :code="selectedFile" theme="vs-dark-custom" />
+      <CodeEditor :code="selectedFile" :theme="isDarkMode ? 'vs-dark-custom' : 'vs-light-custom'" />
       <footer class="file-footer">
         <div class="stars">
           <Icon name="tabler:star" />
@@ -47,7 +47,7 @@
   color: var(--text-secondary);
   padding: 0.5rem 1rem;
   border-bottom: 1px solid var(--glass-border);
-  background-color: #0b102099;
+  background-color: v-bind(editorBackground);
 }
 
 .file-footer {
@@ -57,7 +57,7 @@
   gap: 1.5rem;
   padding: 0.5rem 2rem;
   border-top: 1px solid var(--glass-border);
-  background-color: #0b102099;
+  background-color: v-bind(editorBackground);
   color: var(--text-secondary);
   border-bottom-left-radius: var(--radius-medium);
   border-bottom-right-radius: var(--radius-medium);
@@ -80,6 +80,9 @@
 <script setup lang="ts">
 import type { CodeFile } from '~/types/code';
 import { utilityTypes } from '~/data/code';
+
+const darkModeStore = useDarkModeStore();
+const { isDarkMode } = storeToRefs(darkModeStore);
 
 const selectedFile = ref<CodeFile>(utilityTypes);
 
@@ -109,7 +112,9 @@ const codeLanguage = computed(() => {
     case 'css':
       return 'CSS';
     default:
-      return selectedFile.value.type.toUpperCase();
+      return selectedFile.value.type;
   }
 });
+
+const editorBackground = computed(() => isDarkMode.value ? '#0b102099' : '#fafafa99');
 </script>

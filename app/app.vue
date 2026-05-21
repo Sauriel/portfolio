@@ -25,6 +25,9 @@
 </style>
 
 <script setup lang="ts">
+const darkModeStore = useDarkModeStore();
+const { isDarkMode } = storeToRefs(darkModeStore);
+
 useHead({
   title: 'Sauriel - Portfolio',
   meta: [
@@ -34,6 +37,7 @@ useHead({
   ],
   htmlAttrs: {
     lang: 'en',
+    class: () => isDarkMode.value ? 'dark-mode' : 'light-mode',
   },
 });
 </script>

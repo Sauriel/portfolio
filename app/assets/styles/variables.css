@@ -51,6 +51,9 @@
   --glow-blue: rgba(110, 168, 254, 0.25);
   --glow-pink: rgba(255, 121, 198, 0.2);
 
+  /* === Logo === */
+  --logo-white: #efefef;
+
   /* === Borders === */
   --border-soft: rgba(255, 255, 255, 0.08);
   --border-strong: rgba(255, 255, 255, 0.16);
@@ -79,4 +82,84 @@
   --transition-fast: 150ms ease;
   --transition-normal: 300ms ease;
   --transition-slow: 500ms ease;
+}
+
+html.light-mode {
+  /* === One Light Base === */
+  --bg-primary: #fafafa;
+  --bg-secondary: #f0f0f0;
+  --bg-tertiary: #e6e6e6;
+  --bg-elevated: #ffffff;
+
+  /* === Glassmorphism Surfaces === */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-bg-strong: rgba(245, 245, 245, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-highlight: rgba(255, 255, 255, 0.95);
+
+  /* === Text === */
+  --text-primary: #383a42;
+  --text-secondary: #696c77;
+  --text-muted: #a0a1a7;
+  --text-accent: #a626a4;
+
+  /* === Accent Colors === */
+  --accent-purple: #a626a4;
+  --accent-violet: #7c3aed;
+  --accent-blue: #0184bc;
+  --accent-cyan: #0997b3;
+  --accent-pink: #e45791;
+
+  /* === Nebula / Space Colors === */
+  --nebula-purple: #9333ea;
+  --nebula-magenta: #c026d3;
+  --nebula-blue: #2563eb;
+  --space-dark: #d1d5db;
+  --space-deep: #e5e7eb;
+
+  /* === Syntax Highlighting === */
+  --code-keyword: #a626a4;
+  --code-string: #50a14f;
+  --code-function: #4078f2;
+  --code-variable: #e45649;
+  --code-comment: #a0a1a7;
+  --code-number: #986801;
+
+  /* === Status / UI === */
+  --success: #0ca750;
+  --warning: #c18401;
+  --danger: #e45649;
+  --info: #0184bc;
+
+  /* === Shadows & Glow === */
+  --shadow-dark: rgba(0, 0, 0, 0.1);
+  --glow-purple: rgba(166, 38, 164, 0.15);
+  --glow-blue: rgba(1, 132, 188, 0.12);
+  --glow-pink: rgba(228, 87, 145, 0.1);
+
+  /* === Logo === */
+  --logo-white: #383a42;
+
+  /* === Borders === */
+  --border-soft: rgba(0, 0, 0, 0.06);
+  --border-strong: rgba(0, 0, 0, 0.12);
+
+  /* === Gradients === */
+  --gradient-primary: linear-gradient(135deg, #fafafa 0%, #f5f5f5 35%, #ffffff 70%, #f8f8f8 100%);
+
+  --gradient-nebula: radial-gradient(
+    circle at center,
+    rgba(166, 38, 164, 0.12) 0%,
+    rgba(147, 51, 234, 0.08) 35%,
+    rgba(37, 99, 235, 0.04) 70%,
+    transparent 100%
+  );
+
+  --gradient-glow: linear-gradient(135deg, rgba(166, 38, 164, 0.08), rgba(1, 132, 188, 0.05));
+
+  /* === Blur & Radius === */
+  /* Inherited from :root - no changes needed */
+
+  /* === Transitions === */
+  /* Inherited from :root - no changes needed */
 }

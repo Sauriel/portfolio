@@ -10,14 +10,19 @@
   border-bottom-right-radius: var(--radius-medium);
   padding: 1rem;
   overflow: hidden;
-  background-color: #181c35;
+  background-color: v-bind(terminalBg);
 }
 </style>
 
 <script setup lang="ts">
 import '@xterm/xterm/css/xterm.css';
 
+const darkModeStore = useDarkModeStore();
+const { isDarkMode } = storeToRefs(darkModeStore);
+
 const terminalRef = useTemplateRef('terminalRef');
+
+const terminalBg = computed(() => (isDarkMode.value ? '#181c35' : '#fafafa'));
 
 onMounted(startTerminal);
 watch(terminalRef, startTerminal);

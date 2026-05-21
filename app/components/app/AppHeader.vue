@@ -37,6 +37,7 @@
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
+  background-blend-mode: v-bind(blendMode);
 }
 
 .app-header h1 {
@@ -121,6 +122,10 @@
 
 <script setup lang="ts">
 const route = useRoute();
+const darkModeStore = useDarkModeStore();
+const { isDarkMode } = storeToRefs(darkModeStore);
 
 const isHome = computed(() => route.name === 'index');
+
+const blendMode = computed<'normal' | 'lighten'>(() => isDarkMode.value ? 'normal' : 'lighten');
 </script>
