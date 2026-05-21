@@ -21,6 +21,8 @@
   backdrop-filter: blur(var(--blur-amount));
   box-shadow: 0 8px 32px var(--shadow-dark);
   border-radius: var(--radius-medium);
+  display: flex;
+  flex-direction: column;
 }
 
 .card-header {
