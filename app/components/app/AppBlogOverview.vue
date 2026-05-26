@@ -1,9 +1,9 @@
 <template>
   <UiCard
     tag="section"
-    title="Blog"
+    :title="t('home.blog.title')"
     icon="nrk:latest-news"
-    link-text="View all blog posts"
+    :link-text="t('home.blog.link')"
     link-href="/blog"
   >
     <ol class="blog-list">
@@ -33,6 +33,8 @@
 
 <script setup lang="ts">
 import type { BlogLink } from '~/types/blog';
+
+const { t } = useI18n();
 
 const blogLinks: BlogLink[] = [
   {

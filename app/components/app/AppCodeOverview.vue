@@ -1,9 +1,9 @@
 <template>
   <UiCard
     tag="section"
-    title="Code"
+    :title="t('home.code.title')"
     icon="tabler:code"
-    link-text="View all projects"
+    :link-text="t('home.code.link')"
     link-href="/code"
   >
     <article class="code-overview">
@@ -19,13 +19,13 @@
         </div>
         <div class="forks">
           <Icon name="tabler:git-branch" />
-          forks 17
+          {{ t('home.code.forks', { count: 17 }) }}
         </div>
         <div class="language">
           <Icon :name="fileIcon" />
           {{ codeLanguage }}
         </div>
-        <div class="updated">Updated: 2 days ago</div>
+        <div class="updated">{{ t('home.code.updated', { date: '2 days ago' }) }}</div>
       </footer>
     </article>
   </UiCard>
@@ -83,6 +83,7 @@ import { utilityTypes } from '~/data/code';
 
 const darkModeStore = useDarkModeStore();
 const { isDarkMode } = storeToRefs(darkModeStore);
+const { t } = useI18n();
 
 const selectedFile = ref<CodeFile>(utilityTypes);
 

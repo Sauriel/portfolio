@@ -13,6 +13,20 @@
       "starWarsFan": "Star Wars Fan",
       "dogDaddy": "Dog Daddy"
     },
-    "whoami": "nerdydev — overthinker — problem solver — lifelong learner — frontend evangelist"
+    "whoami": "nerdydev — overthinker — problem solver — lifelong learner — frontend evangelist",
+    "actions": {
+      "search": {
+        "button": "Search",
+        "placeholder": "Search ..."
+      },
+      "theme": "Toggle Dark Mode",
+      "language": {
+        "button": "Change Language",
+        "options": {
+          "en": "EN",
+          "de": "DE"
+        }
+      }
+    }
   }
 }

@@ -6,39 +6,39 @@
       </UiHexagon>
     </UiHexagon>
     <header class="app-navbar-header">
-      <h2>Sauriel</h2>
-      <span class="subline">Code. Stories. Curiosity.</span>
+      <h2>{{ t('navbar.title') }}</h2>
+      <span class="subline">{{ t('navbar.subline') }}</span>
     </header>
     <nav class="app-navbar-nav">
       <NuxtLink to="/" class="nav-item">
         <Icon name="bi:house" />
-        Home
+        {{ t('navbar.nav.home') }}
       </NuxtLink>
       <NuxtLink to="/blog" class="nav-item">
         <Icon name="nrk:latest-news" />
-        Blog
+        {{ t('navbar.nav.blog') }}
       </NuxtLink>
       <NuxtLink to="/code" class="nav-item">
         <Icon name="tabler:code" />
-        Code
+        {{ t('navbar.nav.code') }}
       </NuxtLink>
       <NuxtLink to="/stories" class="nav-item">
         <Icon name="ph:books-fill" />
-        Stories
+        {{ t('navbar.nav.stories') }}
       </NuxtLink>
       <NuxtLink to="/links" class="nav-item">
         <Icon name="mynaui:link" />
-        Links
+        {{ t('navbar.nav.links') }}
       </NuxtLink>
       <NuxtLink to="/about" class="nav-item">
         <Icon name="tabler:user-hexagon" />
-        About
+        {{ t('navbar.nav.about') }}
       </NuxtLink>
     </nav>
     <footer class="app-navbar-footer">
       <NuxtLink
         to="https://github.com/Sauriel"
-        aria-label="GitHub Profile"
+        :aria-label="t('navbar.footer.github')"
         target="_blank"
         class="footer-link"
       >
@@ -46,13 +46,13 @@
       </NuxtLink>
       <NuxtLink
         to="https://discord.com/users/248765748858585088"
-        aria-label="Discord Profile"
+        :aria-label="t('navbar.footer.discord')"
         target="_blank"
         class="footer-link"
       >
         <Icon name="ic:baseline-discord" />
       </NuxtLink>
-      <NuxtLink to="mailto:contact@sauriel.net" aria-label="Email" class="footer-link">
+      <NuxtLink to="mailto:contact@sauriel.net" :aria-label="t('navbar.footer.email')" class="footer-link">
         <Icon name="uil:envelope-alt" />
       </NuxtLink>
     </footer>
@@ -150,6 +150,7 @@
 
 <script setup lang="ts">
 const route = useRoute();
+const { t } = useI18n();
 
 const isHome = computed(() => route.name === 'index');
 </script>

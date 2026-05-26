@@ -3,6 +3,8 @@ import type { LocaleObject } from '@nuxtjs/i18n';
 const TRANSLATION_FILES: string[] = [
   'global',
   'header',
+  'navbar',
+  'home',
 ];
 
 function getTranslationFileList(locale: LocaleObject<string>['code']): string[] {

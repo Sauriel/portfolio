@@ -3,9 +3,9 @@
     <ClientOnly>
       <div class="app-footer-wrapper">
         <p class="footnote">
-          &copy; {{ new Date().getFullYear() }} {{ hostname }} &mdash; Made  without coffee but too much curiosity.
+          {{ t('app.footer', { year: new Date().getFullYear(), hostname }) }}
         </p>
-        <NuxtLink class="legal" to="/legal-notice">Legal Notice</NuxtLink>
+        <NuxtLink class="legal" to="/legal-notice">{{ t('app.legal-notice') }}</NuxtLink>
       </div>
     </ClientOnly>
   </UiCard>
@@ -41,6 +41,8 @@
 </style>
 
 <script setup lang="ts">
+const { t } = useI18n();
+
 const hostname = computed<string>(() => {
   if (import.meta.client) {
     return window.location.hostname;

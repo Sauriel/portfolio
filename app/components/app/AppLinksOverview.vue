@@ -1,9 +1,9 @@
 <template>
   <UiCard
     tag="section"
-    title="Links"
+    :title="t('home.links.title')"
     icon="mynaui:link"
-    link-text="View all links"
+    :link-text="t('home.links.link')"
     link-href="/links"
   >
     <div class="link-list">
@@ -30,6 +30,8 @@
 <script setup lang="ts">
 import type { LinkOverview } from '~/types/links';
 import LinkEntry from '../links/LinkEntry.vue';
+
+const { t } = useI18n();
 
 const links: LinkOverview[] = [
   {

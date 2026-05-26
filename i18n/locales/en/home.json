@@ -1,0 +1,26 @@
+{
+  "home": {
+    "widget": "Currently Playing",
+    "terminal": {
+      "title": "Terminal"
+    },
+    "stories": {
+      "title": "Stories",
+      "link": "View all stories"
+    },
+    "links": {
+      "title": "Links",
+      "link": "View all links"
+    },
+    "code": {
+      "title": "Code",
+      "link": "View all projects",
+      "forks": "{count} Forks",
+      "updated": "Updated: {date}"
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "View all blog posts"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   <UiCard tag="section" class="app-widget">
     <header class="widget-header">
       <Icon name="ion:ios-game-controller-b" />
-      Currently Playing
+      {{ t('home.widget') }}
     </header>
     <hr class="widget-divider" />
     <AppWidgetGameShowcase />
@@ -36,14 +36,5 @@
 </style>
 
 <script setup lang="ts">
-// type Props = {
-//   value: string;
-// }
-
-// type Emits = {
-//   (e: 'update', payload: string): void;
-// }
-
-// const props = defineProps<Props>();
-// const emit = defineEmits<Emits>();
+const { t } = useI18n();
 </script>

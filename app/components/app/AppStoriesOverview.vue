@@ -1,9 +1,9 @@
 <template>
   <UiCard
     tag="section"
-    title="Stories"
+    :title="t('home.stories.title')"
     icon="ph:books-fill"
-    link-text="View all"
+    :link-text="t('home.stories.link')"
     link-href="/stories"
   >
     <div class="story-list">
@@ -31,6 +31,8 @@
 
 <script setup lang="ts">
 import type { StoryOverviewEntry } from '~/types/stories';
+
+const { t } = useI18n();
 
 const stories: StoryOverviewEntry[] = [
   {

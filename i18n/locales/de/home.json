@@ -1,0 +1,26 @@
+{
+  "home": {
+    "widget": "Gerade gespielt",
+    "terminal": {
+      "title": "Terminal"
+    },
+    "stories": {
+      "title": "Stories",
+      "link": "Alle Stories ansehen"
+    },
+    "links": {
+      "title": "Links",
+      "link": "Alle Links ansehen"
+    },
+    "code": {
+      "title": "Code",
+      "link": "Alle Projekte ansehen",
+      "forks": "{count} Forks",
+      "updated": "Aktualisiert: {date}"
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "Alle Blogbeiträge ansehen"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "title": "Sauriel",
+    "subline": "Code. Stories. Curiosity.",
+    "nav": {
+      "home": "Home",
+      "blog": "Blog",
+      "code": "Code",
+      "stories": "Stories",
+      "links": "Links",
+      "about": "About"
+    },
+    "footer": {
+      "github": "GitHub Profile",
+      "discord": "Discord Profile",
+      "email": "E-Mail"
+    }
+  }
+
+}

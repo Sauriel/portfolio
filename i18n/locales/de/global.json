@@ -1,5 +1,7 @@
 {
   "app": {
-    "title": "sauriel.dev - entwickler - autor - gamer"
+    "title": "sauriel.dev - entwickler - autor - gamer",
+    "footer": "© {year} {hostname} — Made without coffee but too much curiosity.",
+    "legal-notice": "Impressum"
   }
 }

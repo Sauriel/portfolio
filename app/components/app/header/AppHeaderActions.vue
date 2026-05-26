@@ -3,18 +3,18 @@
     <button
       type="button"
       class="action-btn"
-      aria-label="Toggle search"
+      :aria-label="t('header.actions.search.button')"
       @click="enableSearch = !enableSearch"
     >
       <Icon name="ci:search-magnifying-glass" />
     </button>
     <div class="search-input" :class="{ hidden: !enableSearch }">
-      <input v-model="searchQuery" type="text" placeholder="Search..." />
+      <input v-model="searchQuery" type="text" :placeholder="t('header.actions.search.placeholder')" />
     </div>
     <button
       type="button"
       class="action-btn"
-      aria-label="Toggle dark mode"
+      :aria-label="t('header.actions.theme')"
       @click="toggleDarkMode"
     >
       <Transition name="slide">
@@ -25,12 +25,12 @@
     <button
       type="button"
       class="action-btn"
-      aria-label="Change language"
+      :aria-label="t('header.actions.language.button')"
       @click="changeLanguage"
     >
       <Transition name="slide">
-        <span v-if="language === 'en'">EN</span>
-        <span v-else>DE</span>
+        <span v-if="language === 'en'">{{ t('header.actions.language.options.en') }}</span>
+        <span v-else>{{ t('header.actions.language.options.de') }}</span>
       </Transition>
     </button>
   </div>
@@ -112,7 +112,7 @@
 const darkModeStore = useDarkModeStore();
 const { isDarkMode } = storeToRefs(darkModeStore);
 const { toggleDarkMode } = darkModeStore;
-const { setLocale, locale } = useI18n();
+const { setLocale, locale, t } = useI18n();
 
 const enableSearch = ref<boolean>(false);
 const searchQuery = ref<string>('');
