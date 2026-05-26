@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What are the four ghost names in Pac-Man?",
+    "options": [
+      "Blinky, Pinky, Inky, Clyde",
+      "Shadow, Speedy, Bashful, Pokey",
+      "Red, Blue, Green, Orange",
+      "Blinky, Sue, Inky, Funky"
+    ],
+    "correctIndex": 0,
+    "explanation": "The four Pac-Man ghosts are Blinky, Pinky, Inky, and Clyde."
+  },
+  {
+    "question": "Which game is widely credited with containing the first video game Easter egg?",
+    "options": [
+      "Pitfall!",
+      "Adventure",
+      "Space Invaders",
+      "Pong"
+    ],
+    "correctIndex": 1,
+    "explanation": "Atari's Adventure on the 2600 is widely credited with the first famous video game Easter egg."
+  },
+  {
+    "question": "In which arcade game did Mario make his first appearance?",
+    "options": [
+      "Mario Bros.",
+      "Donkey Kong",
+      "Punch-Out!!",
+      "Kid Icarus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mario first appeared in Donkey Kong in 1981, originally as Jumpman."
+  },
+  {
+    "question": "Who created Tetris?",
+    "options": [
+      "Shigeru Miyamoto",
+      "Alexey Pajitnov",
+      "Hideo Kojima",
+      "John Carmack"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tetris was created by Alexey Pajitnov in 1984."
+  },
+  {
+    "question": "Which classic arcade game features the phrase 'Finish Him!'?",
+    "options": [
+      "Street Fighter II",
+      "Double Dragon",
+      "Mortal Kombat",
+      "Tekken"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Finish Him!' became iconic through Mortal Kombat."
+  },
+  {
+    "question": "What is the name of Link's sword in the Zelda series?",
+    "options": [
+      "Excalibur",
+      "Master Sword",
+      "Hero Blade",
+      "Hylian Saber"
+    ],
+    "correctIndex": 1,
+    "explanation": "The legendary blade associated with Link is the Master Sword."
+  },
+  {
+    "question": "Which 1980 arcade game challenged players to destroy descending alien rows?",
+    "options": [
+      "Galaga",
+      "Asteroids",
+      "Space Invaders",
+      "Defender"
+    ],
+    "correctIndex": 2,
+    "explanation": "Space Invaders is the classic alien-shooter arcade hit from 1978 that defined the genre."
+  },
+  {
+    "question": "Which company published the original Sonic the Hedgehog?",
+    "options": [
+      "Capcom",
+      "Nintendo",
+      "Konami",
+      "Sega"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sonic the Hedgehog was created and published by Sega."
+  },
+  {
+    "question": "What is the name of Samus Aran's gun arm in Metroid?",
+    "options": [
+      "Beam Gauntlet",
+      "Power Cannon",
+      "Arm Cannon",
+      "Plasma Arm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Samus uses an Arm Cannon as her primary weapon system."
+  },
+  {
+    "question": "Which classic cheat code starts with Up, Up, Down, Down?",
+    "options": [
+      "IDDQD",
+      "Konami Code",
+      "Level Select Code",
+      "Big Head Mode"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Konami Code begins with Up, Up, Down, Down, Left, Right, Left, Right, B, A."
+  }
+]

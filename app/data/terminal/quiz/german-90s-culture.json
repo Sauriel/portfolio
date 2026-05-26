@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Which German soap opera premiered in 1992 and is still running today?",
+    "options": ["Verbotene Liebe", "Gute Zeiten, schlechte Zeiten", "Marienhof", "Unter uns"],
+    "correctIndex": 1,
+    "explanation": "Gute Zeiten, schlechte Zeiten premiered in 1992 and became one of Germany's best-known daily soaps."
+  },
+  {
+    "question": "What was the name of the German cult sitcom starring Tom Gerhardt in the 90s?",
+    "options": ["Hausmeister Krause", "Balko", "Nikola", "Ritas Welt"],
+    "correctIndex": 0,
+    "explanation": "Hausmeister Krause became popular in the 90s and ran on Sat.1 starting in 1999."
+  },
+  {
+    "question": "Which German TV host shaped the 90s era of 'Wetten, dass..?'",
+    "options": ["Thomas Gottschalk", "Hans Meiser", "Frank Elstner", "Harald Schmidt"],
+    "correctIndex": 0,
+    "explanation": "Thomas Gottschalk hosted 'Wetten, dass..?' from 1987 and made it especially iconic in the 90s."
+  },
+  {
+    "question": "Which show became a cult hit in the 90s because it spoke to young people in a very direct way?",
+    "options": ["Arabella", "RTL Samstag Nacht", "Gottschalk Late Night", "Löwenzahn"],
+    "correctIndex": 1,
+    "explanation": "RTL Samstag Nacht was one of the defining comedy shows on German television in the 90s."
+  },
+  {
+    "question": "Which song by Die Fantastischen Vier became a major German rap hit in 1999?",
+    "options": ["Die da!?", "MfG", "Sie ist weg", "Troy"],
+    "correctIndex": 1,
+    "explanation": "'MfG' was released in 1999 and became one of Die Fantastischen Vier's best-known songs."
+  },
+  {
+    "question": "Who sang 'Du trägst keine Liebe in dir' in 1992?",
+    "options": ["Mark Forster", "Marius Müller-Westernhagen", "Herbert Grönemeyer", "Matthias Reim"],
+    "correctIndex": 1,
+    "explanation": "Marius Müller-Westernhagen scored a major hit with 'Du trägst keine Liebe in dir'."
+  },
+  {
+    "question": "Which singer released the hit 'Verdammt, ich lieb' dich' in 1990?",
+    "options": ["Udo Lindenberg", "Matthias Reim", "Peter Maffay", "Xavier Naidoo"],
+    "correctIndex": 1,
+    "explanation": "Matthias Reim became a superstar with 'Verdammt, ich lieb' dich' in 1990."
+  },
+  {
+    "question": "Which German techno act released the hit 'Forever Young' in 1997?",
+    "options": ["Scooter", "Culture Beat", "Blümchen", "Sash!"],
+    "correctIndex": 0,
+    "explanation": "Scooter released several techno hits in 1994 and 1997, including 'Forever Young'."
+  },
+  {
+    "question": "Which singer became known in the 90s with Eurodance hits like 'Herz an Herz'?",
+    "options": ["Blümchen", "Nena", "Jeanette Biedermann", "Mia"],
+    "correctIndex": 0,
+    "explanation": "Blümchen was one of the defining Eurodance artists in 90s Germany."
+  },
+  {
+    "question": "Which 1997 German film made a Berlin group famous for a road trip heading east?",
+    "options": ["Lola rennt", "Knockin' on Heaven's Door", "Good Bye, Lenin!", "Absolute Giganten"],
+    "correctIndex": 1,
+    "explanation": "'Knockin' on Heaven's Door' hit cinemas in 1997 and became a major German box-office success."
+  },
+  {
+    "question": "What was the title of the 1998 German film in which Lola runs to save her boyfriend's life?",
+    "options": ["Run Lola Run", "Lola rennt", "Manta, Manta", "Kleine Haie"],
+    "correctIndex": 1,
+    "explanation": "'Lola rennt' by Tom Tykwer became an international success."
+  },
+  {
+    "question": "Which German film starring Til Schweiger made car tuning and friendship popular in the 90s?",
+    "options": ["Manta, Manta", "Der bewegte Mann", "Knockin' on Heaven's Door", "Bang Boom Bang"],
+    "correctIndex": 0,
+    "explanation": "'Manta, Manta' was released in 1991 and strongly shaped 90s youth and car culture in Germany."
+  },
+  {
+    "question": "Which German private TV channel was especially known in the 90s for new formats and comedy?",
+    "options": ["ARD", "ZDF", "RTL", "3sat"],
+    "correctIndex": 2,
+    "explanation": "RTL shaped the 90s with many entertainment formats and comedy shows."
+  },
+  {
+    "question": "What was the name of Harald Schmidt's 90s late-night/comedy show?",
+    "options": ["TV total", "Schmidteinander", "Gottschalk Late Night", "Vivasion"],
+    "correctIndex": 1,
+    "explanation": "'Schmidteinander' was an earlier successful late-night/comedy show with Harald Schmidt."
+  },
+  {
+    "question": "Which German boy band had 90s hits like 'Tarzan & Jane'?",
+    "options": ["Caught in the Act", "No Angels", "The Kelly Family", "Die Prinzen"],
+    "correctIndex": 0,
+    "explanation": "Caught in the Act was a very successful boy band in Germany in the 90s."
+  },
+  {
+    "question": "Which German film made car tuning and friendship especially popular in the 90s?",
+    "options": ["Manta, Manta", "Der bewegte Mann", "Knockin' on Heaven's Door", "Bang Boom Bang"],
+    "correctIndex": 0,
+    "explanation": "'Manta, Manta' was released in 1991 and strongly influenced 90s youth and car culture in Germany."
+  },
+  {
+    "question": "Which group had a huge success in Germany in the 90s with 'I Can't Help Myself'?",
+    "options": ["Backstreet Boys", "The Kelly Family", "Take That", "S Club 7"],
+    "correctIndex": 1,
+    "explanation": "The Kelly Family scored one of their biggest hits with 'I Can't Help Myself'."
+  },
+  {
+    "question": "Which German TV series was set in a Hamburg grammar school and became a 90s cult hit?",
+    "options": ["Die Schule am See", "Allein gegen die Zeit", "Mädchen, Mädchen", "Die rote Zora"],
+    "correctIndex": 0,
+    "explanation": "'Die Schule am See' was a popular German youth series in the 90s."
+  },
+  {
+    "question": "Which German program was known in the 90s as an educational and learning show for children?",
+    "options": ["Die Sendung mit der Maus", "Wissen macht Ah!", "Löwenzahn", "Akte X"],
+    "correctIndex": 2,
+    "explanation": "'Löwenzahn' had already been successful for a long time and was a defining children's show in the 90s."
+  },
+  {
+    "question": "Which German fashion trend name stood for very wide trousers and sportswear in the 90s?",
+    "options": ["Chic", "Raver-Stil", "Business Casual", "Biedermeier"],
+    "correctIndex": 1,
+    "explanation": "The Raver style with wide trousers and eye-catching club fashion strongly shaped the 90s scene."
+  },
+  {
+    "question": "What was the name of the German TV comedy centered on an eccentric dachshund lover?",
+    "options": ["Bullyparade", "RTL Samstag Nacht", "Hausmeister Krause", "Alfons"],
+    "correctIndex": 2,
+    "explanation": "Hausmeister Krause stood for quirky everyday comedy in the late 90s."
+  }
+]

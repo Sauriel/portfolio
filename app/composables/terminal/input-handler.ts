@@ -1,18 +1,34 @@
-import type { Terminal } from '@xterm/xterm';
-import type { CommandRegistry } from './types';
+import type { CommandRegistry, TerminalWithSession } from './types';
 
 /**
  * Creates an input handler for the terminal that processes user input,
  * handles command history, and provides tab completion.
  */
 export function createInputHandler(
-  terminal: Terminal,
+  terminal: TerminalWithSession,
   commands: CommandRegistry,
   promptGetter: () => { prompt: string, inputLineLength: number },
 ) {
   let currentLine = '';
   const commandHistory: string[] = [];
   let historyIndex = -1;
+
+  const getPromptState = () => {
+    const session = terminal.__interactiveSession;
+    if (session) {
+      return {
+        prompt: session.prompt,
+        inputLineLength: session.inputLineLength,
+      };
+    }
+
+    return promptGetter();
+  };
+
+  const getInputPrompt = () => {
+    const { prompt } = getPromptState();
+    return prompt.split('\r\n').pop() || '';
+  };
 
   /**
    * Execute a command from user input
@@ -48,7 +64,7 @@ export function createInputHandler(
    * Clear the current input line
    */
   const clearLine = () => {
-    const { inputLineLength } = promptGetter();
+    const { inputLineLength } = getPromptState();
     terminal.write(`\r${' '.repeat(inputLineLength + currentLine.length)}\r`);
   };
 
@@ -56,28 +72,26 @@ export function createInputHandler(
    * Navigate through command history
    */
   const navigateHistory = (direction: 'up' | 'down') => {
-    const { prompt, inputLineLength } = promptGetter();
+    if (terminal.__interactiveSession) {
+      return;
+    }
 
     if (direction === 'up' && historyIndex > 0) {
       historyIndex--;
       clearLine();
       currentLine = commandHistory[historyIndex] || '';
-      // Write only the input line part of the prompt
-      const inputPrompt = prompt.split('\r\n')[1] || '';
-      terminal.write(inputPrompt + currentLine);
+      terminal.write(getInputPrompt() + currentLine);
     } else if (direction === 'down') {
       if (historyIndex < commandHistory.length - 1) {
         historyIndex++;
         clearLine();
         currentLine = commandHistory[historyIndex] || '';
-        const inputPrompt = prompt.split('\r\n')[1] || '';
-        terminal.write(inputPrompt + currentLine);
+        terminal.write(getInputPrompt() + currentLine);
       } else if (historyIndex === commandHistory.length - 1) {
         historyIndex = commandHistory.length;
         clearLine();
         currentLine = '';
-        const inputPrompt = prompt.split('\r\n')[1] || '';
-        terminal.write(inputPrompt);
+        terminal.write(getInputPrompt());
       }
     }
   };
@@ -86,7 +100,10 @@ export function createInputHandler(
    * Handle tab completion
    */
   const handleTabCompletion = () => {
-    const { prompt, inputLineLength } = promptGetter();
+    if (terminal.__interactiveSession) {
+      return;
+    }
+
     const matches = Object.keys(commands).filter(cmd =>
       cmd.startsWith(currentLine.toLowerCase()),
     );
@@ -94,12 +111,10 @@ export function createInputHandler(
     if (matches.length === 1) {
       clearLine();
       currentLine = matches[0] ?? '';
-      const inputPrompt = prompt.split('\r\n')[1] || '';
-      terminal.write(inputPrompt + currentLine);
+      terminal.write(getInputPrompt() + currentLine);
     } else if (matches.length > 1) {
       terminal.writeln(`\r\n${matches.join('  ')}`);
-      const inputPrompt = prompt.split('\r\n')[1] || '';
-      terminal.write(inputPrompt + currentLine);
+      terminal.write(getInputPrompt() + currentLine);
     }
   };
 
@@ -108,51 +123,50 @@ export function createInputHandler(
    */
   const handleInput = (data: string) => {
     const code = data.charCodeAt(0);
-    const { prompt } = promptGetter();
+
+    if (data === '\x03') { // Ctrl+C - Clear current line
+      terminal.write('^C\r\n');
+      currentLine = '';
+      terminal.__interactiveSession?.onCancel?.(terminal);
+      terminal.__interactiveSession = undefined;
+      terminal.write(getPromptState().prompt);
+      return;
+    }
+
+    if (data === '\x0C') { // Ctrl+L - Clear screen
+      terminal.clear();
+      terminal.write(getPromptState().prompt);
+      return;
+    }
+
+    if (terminal.__interactiveSession?.handleData?.(data, terminal)) {
+      return;
+    }
 
     // Enter key
     if (data === '\r' || data === '\n') {
       terminal.write('\r\n');
-      executeCommand(currentLine);
+      if (terminal.__interactiveSession) {
+        terminal.__interactiveSession.handleLine(currentLine, terminal);
+      } else {
+        executeCommand(currentLine);
+      }
       currentLine = '';
-      terminal.write(prompt);
-    }
-    // Backspace / Delete
-    else if (data === '\x7F' || data === '\b') {
+      terminal.write(getPromptState().prompt);
+    } else if (data === '\x7F' || data === '\b') { // Backspace / Delete
       if (currentLine.length > 0) {
         currentLine = currentLine.slice(0, -1);
         terminal.write('\b \b');
       }
-    }
-    // Arrow Up
-    else if (data === '\x1B[A') {
+    } else if (data === '\x1B[A') { // Arrow Up
       navigateHistory('up');
-    }
-    // Arrow Down
-    else if (data === '\x1B[B') {
+    } else if (data === '\x1B[B') { // Arrow Down
       navigateHistory('down');
-    }
-    // Arrow Right / Left - Ignore to prevent cursor movement
-    else if (data === '\x1B[C' || data === '\x1B[D') {
+    } else if (data === '\x1B[C' || data === '\x1B[D') { // Arrow Right / Left - Ignore to prevent cursor movement
       // Do nothing
-    }
-    // Tab
-    else if (data === '\t') {
+    } else if (data === '\t') { // Tab
       handleTabCompletion();
-    }
-    // Ctrl+C - Clear current line
-    else if (data === '\x03') {
-      terminal.write('^C\r\n');
-      currentLine = '';
-      terminal.write(prompt);
-    }
-    // Ctrl+L - Clear screen
-    else if (data === '\x0C') {
-      terminal.clear();
-      terminal.write(prompt);
-    }
-    // Printable characters
-    else if (code >= 32 && code < 127) {
+    } else if (code >= 32 && code < 127) { // Printable characters
       currentLine += data;
       terminal.write(data);
     }

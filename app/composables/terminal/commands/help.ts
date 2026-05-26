@@ -5,7 +5,7 @@ export const helpCommand: Command = {
   description: 'Show available commands',
   execute: (args, term) => {
     term.writeln('\r\n\x1B[1;33mAvailable Commands:\x1B[0m\r\n');
-    
+
     // Get all available commands from the registry
     const commands = (term as any).__commandRegistry as Record<string, Command>;
     Object.values(commands).forEach((cmd) => {

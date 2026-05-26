@@ -1,0 +1,552 @@
+[
+  {
+    "question": "What is the registry number of the original USS Enterprise in The Original Series?",
+    "options": [
+      "NCC-1701",
+      "NCC-1701-A",
+      "NCC-74656",
+      "NX-01"
+    ],
+    "correctIndex": 0,
+    "explanation": "The original Constitution-class Enterprise is NCC-1701."
+  },
+  {
+    "question": "Which species is Spock?",
+    "options": [
+      "Romulan",
+      "Klingon",
+      "Vulcan-Human hybrid",
+      "Andorian"
+    ],
+    "correctIndex": 2,
+    "explanation": "Spock is half Vulcan and half Human."
+  },
+  {
+    "question": "Who is the captain of the USS Enterprise-D in The Next Generation?",
+    "options": [
+      "James T. Kirk",
+      "Benjamin Sisko",
+      "Jean-Luc Picard",
+      "Kathryn Janeway"
+    ],
+    "correctIndex": 2,
+    "explanation": "Captain Jean-Luc Picard commands the Enterprise-D."
+  },
+  {
+    "question": "What is the name of the space station commanded by Benjamin Sisko?",
+    "options": [
+      "Deep Space Nine",
+      "Starbase 1",
+      "Terok Prime",
+      "Outpost 47"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sisko commands Deep Space Nine."
+  },
+  {
+    "question": "Which quadrant is on the far side of the galaxy from the Federation and where Voyager is stranded?",
+    "options": [
+      "Alpha Quadrant",
+      "Beta Quadrant",
+      "Delta Quadrant",
+      "Gamma Quadrant"
+    ],
+    "correctIndex": 2,
+    "explanation": "Voyager is stranded in the Delta Quadrant."
+  },
+  {
+    "question": "What is the name of the device used for faster-than-light travel in Star Trek?",
+    "options": [
+      "Hyperdrive",
+      "Warp drive",
+      "Slipstream engine",
+      "Jump gate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Starfleet ships use warp drive for FTL travel."
+  },
+  {
+    "question": "Which species says the phrase 'Resistance is futile'?",
+    "options": [
+      "Cardassians",
+      "Romulans",
+      "Borg",
+      "Dominion"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Borg Collective is known for saying 'Resistance is futile.'"
+  },
+  {
+    "question": "What is the name of Worf's species?",
+    "options": [
+      "Klingon",
+      "Vulcan",
+      "Bajoran",
+      "Tellarite"
+    ],
+    "correctIndex": 0,
+    "explanation": "Worf is a Klingon."
+  },
+  {
+    "question": "Who is known for saying 'Live long and prosper'?",
+    "options": [
+      "Data",
+      "Spock",
+      "Kirk",
+      "Scotty"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spock popularized the Vulcan greeting."
+  },
+  {
+    "question": "What is the title of the first Star Trek series from the 1960s?",
+    "options": [
+      "Star Trek: Enterprise",
+      "Star Trek: The Original Series",
+      "Star Trek: Discovery",
+      "Star Trek: Strange New Worlds"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first series is now commonly called The Original Series."
+  },
+  {
+    "question": "Who is the chief engineer famous for saying 'I am giving her all she has got'?",
+    "options": [
+      "Geordi La Forge",
+      "B'Elanna Torres",
+      "Montgomery Scott",
+      "Miles O'Brien"
+    ],
+    "correctIndex": 2,
+    "explanation": "Montgomery 'Scotty' Scott is the iconic engineer from TOS."
+  },
+  {
+    "question": "What is the nickname of Dr. Leonard McCoy?",
+    "options": [
+      "Doc",
+      "Bones",
+      "Medic",
+      "Sawbones"
+    ],
+    "correctIndex": 1,
+    "explanation": "McCoy is commonly called Bones."
+  },
+  {
+    "question": "Which species are known for logic and emotional control?",
+    "options": [
+      "Vulcans",
+      "Klingons",
+      "Ferengi",
+      "Pakleds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vulcan culture emphasizes logic and emotional discipline."
+  },
+  {
+    "question": "What is the Prime Directive mainly about?",
+    "options": [
+      "Always winning battles",
+      "No interference with less advanced civilizations",
+      "Mandatory first contact",
+      "Banning time travel"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Prime Directive prohibits interfering with pre-warp societies."
+  },
+  {
+    "question": "Which ship is commanded by Captain Kathryn Janeway?",
+    "options": [
+      "USS Defiant",
+      "USS Enterprise-E",
+      "USS Voyager",
+      "USS Titan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Janeway commands the Intrepid-class USS Voyager."
+  },
+  {
+    "question": "What is the homeworld of the Vulcans?",
+    "options": [
+      "Qo'noS",
+      "Bajor",
+      "Vulcan",
+      "Romulus"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Vulcan species comes from the planet Vulcan."
+  },
+  {
+    "question": "Which race values profit and follows the Rules of Acquisition?",
+    "options": [
+      "Ferengi",
+      "Cardassians",
+      "Breen",
+      "Xindi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ferengi culture is centered around commerce and profit."
+  },
+  {
+    "question": "What is the name of the shapeshifting security chief on Deep Space Nine?",
+    "options": [
+      "Garak",
+      "Odo",
+      "Dukat",
+      "Damar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Odo is a Changeling who serves as DS9 security chief."
+  },
+  {
+    "question": "Which actor played Captain James T. Kirk in The Original Series?",
+    "options": [
+      "Patrick Stewart",
+      "William Shatner",
+      "Anson Mount",
+      "Chris Pine"
+    ],
+    "correctIndex": 1,
+    "explanation": "William Shatner played Kirk in TOS."
+  },
+  {
+    "question": "Which species has forehead ridges and a warrior culture?",
+    "options": [
+      "Andorians",
+      "Klingons",
+      "Bajorans",
+      "Betazoids"
+    ],
+    "correctIndex": 1,
+    "explanation": "Klingons are known for their warrior ethos and ridged foreheads."
+  },
+  {
+    "question": "Who is the android officer serving on the Enterprise-D?",
+    "options": [
+      "Lore",
+      "Data",
+      "B-4",
+      "Seven of Nine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lieutenant Commander Data serves aboard the Enterprise-D."
+  },
+  {
+    "question": "Which empire is ruled by the Founders during the Dominion War?",
+    "options": [
+      "Romulan Star Empire",
+      "Cardassian Union",
+      "Dominion",
+      "Klingon Empire"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Dominion is led by the Founders."
+  },
+  {
+    "question": "What is the name of the bar owner on Deep Space Nine?",
+    "options": [
+      "Rom",
+      "Quark",
+      "Morn",
+      "Brunt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quark owns and runs the bar on DS9."
+  },
+  {
+    "question": "Which Star Trek film features the line 'The needs of the many outweigh the needs of the few'?",
+    "options": [
+      "Star Trek II: The Wrath of Khan",
+      "Star Trek: First Contact",
+      "Star Trek VI: The Undiscovered Country",
+      "Star Trek Into Darkness"
+    ],
+    "correctIndex": 0,
+    "explanation": "Spock says the line in The Wrath of Khan."
+  },
+  {
+    "question": "Who is Captain Pike's Number One in Strange New Worlds?",
+    "options": [
+      "Nyota Uhura",
+      "Una Chin-Riley",
+      "Tilly",
+      "Seven of Nine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una Chin-Riley serves as Number One under Pike."
+  },
+  {
+    "question": "Which ship class is USS Voyager?",
+    "options": [
+      "Galaxy class",
+      "Intrepid class",
+      "Defiant class",
+      "Sovereign class"
+    ],
+    "correctIndex": 1,
+    "explanation": "Voyager is an Intrepid-class vessel."
+  },
+  {
+    "question": "What is the rank of Deanna Troi for most of The Next Generation?",
+    "options": [
+      "Lieutenant Commander",
+      "Commander",
+      "Counselor with civilian rank only",
+      "Captain"
+    ],
+    "correctIndex": 0,
+    "explanation": "Troi is a Starfleet officer and holds the rank of Lieutenant Commander for most of TNG."
+  },
+  {
+    "question": "Which species can sense emotions and includes Counselor Troi?",
+    "options": [
+      "Betazoid",
+      "Bajoran",
+      "Trill",
+      "Ocampa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Troi is half Betazoid, and Betazoids are known for empathic abilities."
+  },
+  {
+    "question": "What is the name of the Klingon homeworld?",
+    "options": [
+      "Rura Penthe",
+      "Qo'noS",
+      "Boreth",
+      "Praxis"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Klingon homeworld is Qo'noS."
+  },
+  {
+    "question": "Which doctor serves as chief medical officer on Voyager?",
+    "options": [
+      "The Emergency Medical Hologram",
+      "Dr. Beverly Crusher",
+      "Dr. McCoy",
+      "Dr. Pulaski"
+    ],
+    "correctIndex": 0,
+    "explanation": "Voyager's Doctor is the EMH, often simply called The Doctor."
+  },
+  {
+    "question": "Which character is known as Locutus of Borg?",
+    "options": [
+      "Riker",
+      "Picard",
+      "Data",
+      "Sisko"
+    ],
+    "correctIndex": 1,
+    "explanation": "Picard is assimilated and renamed Locutus by the Borg."
+  },
+  {
+    "question": "What is the name of the Cardassian who is a former tailor and spy on DS9?",
+    "options": [
+      "Dukat",
+      "Damar",
+      "Garak",
+      "Evek"
+    ],
+    "correctIndex": 2,
+    "explanation": "Elim Garak is the famous Cardassian tailor-spy."
+  },
+  {
+    "question": "What beverage is associated with Guinan's lounge on the Enterprise-D?",
+    "options": [
+      "Kanar",
+      "Synthehol",
+      "Raktajino",
+      "Romulan ale"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ten Forward commonly serves synthehol variants."
+  },
+  {
+    "question": "Which Star Trek series introduced Michael Burnham?",
+    "options": [
+      "Star Trek: Voyager",
+      "Star Trek: Discovery",
+      "Star Trek: Enterprise",
+      "Star Trek: Lower Decks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michael Burnham is the central character of Discovery."
+  },
+  {
+    "question": "Who is the first officer of Voyager?",
+    "options": [
+      "Tom Paris",
+      "Tuvok",
+      "Chakotay",
+      "Harry Kim"
+    ],
+    "correctIndex": 2,
+    "explanation": "Commander Chakotay serves as Voyager's first officer."
+  },
+  {
+    "question": "What is the name of the wormhole near Deep Space Nine?",
+    "options": [
+      "Bajoran Wormhole",
+      "Barzan Wormhole",
+      "Typhon Passage",
+      "Caretaker Array"
+    ],
+    "correctIndex": 0,
+    "explanation": "The stable wormhole near DS9 is called the Bajoran Wormhole."
+  },
+  {
+    "question": "Which species worships the Prophets in DS9?",
+    "options": [
+      "Bajorans",
+      "Ferengi",
+      "Romulans",
+      "Talaxians"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bajorans revere the Prophets of the wormhole."
+  },
+  {
+    "question": "What is the title of the first Star Trek feature film released in 1979?",
+    "options": [
+      "Star Trek II: The Wrath of Khan",
+      "Star Trek: The Motion Picture",
+      "Star Trek III: The Search for Spock",
+      "Star Trek Generations"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first feature film is Star Trek: The Motion Picture (1979)."
+  },
+  {
+    "question": "Which captain commanded the NX-01?",
+    "options": [
+      "Jonathan Archer",
+      "Christopher Pike",
+      "Hikaru Sulu",
+      "Rachel Garrett"
+    ],
+    "correctIndex": 0,
+    "explanation": "Captain Jonathan Archer commands Enterprise NX-01."
+  },
+  {
+    "question": "Which Star Trek animated comedy follows support crew on the USS Cerritos?",
+    "options": [
+      "Star Trek: Prodigy",
+      "Star Trek: Lower Decks",
+      "Star Trek: Short Treks",
+      "Star Trek: TAS"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lower Decks centers on lower-ranking officers aboard Cerritos."
+  },
+  {
+    "question": "Who is Seven of Nine before joining Voyager?",
+    "options": [
+      "A Romulan defector",
+      "A former Borg drone",
+      "A Trill host",
+      "A Starfleet cadet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Seven of Nine was assimilated by the Borg as a child."
+  },
+  {
+    "question": "What is the name of Captain Picard's ready room fish?",
+    "options": [
+      "Salamander",
+      "Livingston",
+      "Spot",
+      "Moby"
+    ],
+    "correctIndex": 1,
+    "explanation": "Picard's lionfish is named Livingston."
+  },
+  {
+    "question": "Which character often says 'Make it so'?",
+    "options": [
+      "Kirk",
+      "Sisko",
+      "Picard",
+      "Janeway"
+    ],
+    "correctIndex": 2,
+    "explanation": "Captain Picard is famous for the command 'Make it so.'"
+  },
+  {
+    "question": "What is Data's cat named?",
+    "options": [
+      "Mittens",
+      "Spot",
+      "Porthos",
+      "Salem"
+    ],
+    "correctIndex": 1,
+    "explanation": "Data's pet cat is named Spot."
+  },
+  {
+    "question": "Which Star Trek film centers on the Borg and time travel to 21st-century Earth?",
+    "options": [
+      "Star Trek: Insurrection",
+      "Star Trek: Nemesis",
+      "Star Trek: First Contact",
+      "Star Trek Beyond"
+    ],
+    "correctIndex": 2,
+    "explanation": "First Contact features the Borg attempting to alter history."
+  },
+  {
+    "question": "Who created the android Data?",
+    "options": [
+      "Noonien Soong",
+      "Richard Daystrom",
+      "Lewis Zimmerman",
+      "Moriarty"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dr. Noonien Soong designed and built Data."
+  },
+  {
+    "question": "What is the name of the holodeck simulation where Lieutenant Barclay escapes into fantasy roles?",
+    "options": [
+      "The Big Goodbye",
+      "Hollow Pursuits",
+      "Ship in a Bottle",
+      "Elementary, Dear Data"
+    ],
+    "correctIndex": 1,
+    "explanation": "The episode Hollow Pursuits introduces Barclay's holodeck escapism."
+  },
+  {
+    "question": "Which species is known for cybernetic implants and a collective mind?",
+    "options": [
+      "Borg",
+      "Krenim",
+      "Vidiians",
+      "Hirogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Borg are cybernetically enhanced and linked as a collective."
+  },
+  {
+    "question": "What is Captain Sisko's favorite Earth sport?",
+    "options": [
+      "Soccer",
+      "Baseball",
+      "Basketball",
+      "Tennis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sisko is famously attached to baseball, especially his old ball on his desk."
+  },
+  {
+    "question": "Which recurring omnipotent being torments and tests Starfleet crews?",
+    "options": [
+      "The Traveler",
+      "Nagilum",
+      "Q",
+      "The Caretaker"
+    ],
+    "correctIndex": 2,
+    "explanation": "Q repeatedly appears to challenge and provoke Starfleet officers."
+  }
+]

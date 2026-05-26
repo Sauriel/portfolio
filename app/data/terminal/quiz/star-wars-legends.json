@@ -1,0 +1,486 @@
+[
+  {
+    "question": "What was Corran Horn's profession before becoming a full Jedi?",
+    "options": [
+      "Imperial pilot",
+      "Corellian Security officer",
+      "Smuggler",
+      "Senator"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corran Horn previously served with CorSec, the Corellian Security Force."
+  },
+  {
+    "question": "Which Rogue Squadron pilot is also the protagonist of I, Jedi?",
+    "options": [
+      "Tycho Celchu",
+      "Wedge Antilles",
+      "Corran Horn",
+      "Gavin Darklighter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Corran Horn is the central character of the novel I, Jedi."
+  },
+  {
+    "question": "What is the name of Corran Horn's wife in Star Wars Legends?",
+    "options": [
+      "Mirax Terrik",
+      "Mara Jade",
+      "Winter Celchu",
+      "Erisi Dlarit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Corran Horn marries Mirax Terrik, the daughter of Booster Terrik."
+  },
+  {
+    "question": "Which distinctive Force ability is Corran Horn known for lacking?",
+    "options": [
+      "Mind trick",
+      "Telekinesis",
+      "Force healing",
+      "Battle meditation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corran Horn is notably weak in telekinesis compared with many other Jedi."
+  },
+  {
+    "question": "What color is Corran Horn's lightsaber blade for most of his Legends story?",
+    "options": [
+      "Blue",
+      "Green",
+      "Purple",
+      "Yellow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corran Horn is best known for wielding a green lightsaber."
+  },
+  {
+    "question": "What is the full name of the Imperial leader often called Iceheart?",
+    "options": [
+      "Ysanne Isard",
+      "Sate Pestage",
+      "Natasi Daala",
+      "Ailyn Isard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ysanne Isard, also called Iceheart, became one of the most feared Imperial rulers in Legends."
+  },
+  {
+    "question": "What nickname was commonly used for Ysanne Isard?",
+    "options": [
+      "Iron Fist",
+      "Iceheart",
+      "Night Swan",
+      "Shadow Hand"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ysanne Isard was known as Iceheart for her cold ruthlessness."
+  },
+  {
+    "question": "Which planet did Ysanne Isard devastate with the Krytos virus?",
+    "options": [
+      "Corellia",
+      "Coruscant",
+      "Kuat",
+      "Bothawui"
+    ],
+    "correctIndex": 1,
+    "explanation": "Isard used the Krytos virus on Coruscant during her campaign against the New Republic."
+  },
+  {
+    "question": "Which Imperial intelligence organization was closely associated with Ysanne Isard?",
+    "options": [
+      "Imperial Security Bureau",
+      "Imperial Department of Military Research",
+      "CompForce",
+      "Inquisitorius"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ysanne Isard rose through Imperial Intelligence and wielded immense power alongside the ISB structure."
+  },
+  {
+    "question": "What was the Sun Crusher primarily famous for?",
+    "options": [
+      "Destroying starfighters",
+      "Destroying entire star systems",
+      "Cloaking planets",
+      "Hijacking droids"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Sun Crusher could trigger stars to go supernova and wipe out entire systems."
+  },
+  {
+    "question": "Who built the Sun Crusher in Star Wars Legends?",
+    "options": [
+      "The Hutts",
+      "The Galactic Republic",
+      "The Empire's Maw Installation scientists",
+      "The Chiss Ascendancy"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Sun Crusher was developed by Imperial scientists at the Maw Installation."
+  },
+  {
+    "question": "Which Jedi is most closely associated with the Sun Crusher storyline?",
+    "options": [
+      "Kyp Durron",
+      "Kyle Katarn",
+      "Corran Horn",
+      "Mara Jade"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kyp Durron famously seized the Sun Crusher during the Jedi Academy Trilogy."
+  },
+  {
+    "question": "What species were the Yuzhan Vong?",
+    "options": [
+      "A droid civilization",
+      "Extragalactic organic conquerors",
+      "Ancient Sith alchemists",
+      "Mutated clones"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Yuzhan Vong were an extragalactic warrior species devoted to organic technology."
+  },
+  {
+    "question": "Why were the Yuzhan Vong especially dangerous to Jedi in Legends?",
+    "options": [
+      "They could absorb blaster fire",
+      "They were invisible in the Force",
+      "They could clone lightsabers",
+      "They controlled midichlorians"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Yuzhan Vong existed outside normal Force perception, making them difficult for Jedi to sense."
+  },
+  {
+    "question": "What type of technology did the Yuzhan Vong primarily use?",
+    "options": [
+      "Ancient Rakatan machines",
+      "Purely cybernetic implants",
+      "Organic biotech",
+      "Conventional Imperial hardware"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yuzhan Vong culture relied on living biotechnology rather than mechanical systems."
+  },
+  {
+    "question": "Which famous planet was devastated early in the Yuuzhan Vong War?",
+    "options": [
+      "Naboo",
+      "Coruscant",
+      "Sernpidal",
+      "Dantooine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sernpidal was catastrophically destroyed in one of the early major Vong attacks."
+  },
+  {
+    "question": "Which Imperial Grand Admiral is famous for studying art to understand opponents?",
+    "options": [
+      "Pellaeon",
+      "Thrawn",
+      "Zsinj",
+      "Daala"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thrawn often analyzed art and culture to predict enemy thinking."
+  },
+  {
+    "question": "What species is Grand Admiral Thrawn?",
+    "options": [
+      "Human",
+      "Duros",
+      "Chiss",
+      "Mirialan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thrawn's full name is Mitth'raw'nuruodo, and he is a Chiss."
+  },
+  {
+    "question": "Which clone master served Thrawn during the Thrawn Trilogy?",
+    "options": [
+      "Joruus C'baoth",
+      "Dorsk 81",
+      "Kueller",
+      "Palleus Chuff"
+    ],
+    "correctIndex": 0,
+    "explanation": "Joruus C'baoth was a mad clone Jedi allied with Thrawn in the trilogy."
+  },
+  {
+    "question": "Who ultimately kills Thrawn at the end of The Last Command?",
+    "options": [
+      "Mara Jade",
+      "Luke Skywalker",
+      "Rukh",
+      "Gilad Pellaeon"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thrawn is assassinated by his Noghri bodyguard Rukh."
+  },
+  {
+    "question": "What was Mara Jade's role under Emperor Palpatine before joining the New Republic side?",
+    "options": [
+      "Imperial pilot",
+      "Emperor's Hand",
+      "Inquisitor",
+      "Dark Jedi apprentice"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mara Jade served Palpatine as one of his elite agents, known as the Emperor's Hand."
+  },
+  {
+    "question": "Which Jedi does Mara Jade eventually marry in Legends?",
+    "options": [
+      "Corran Horn",
+      "Kam Solusar",
+      "Luke Skywalker",
+      "Kyle Katarn"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mara Jade eventually marries Luke Skywalker in the Legends timeline."
+  },
+  {
+    "question": "What was the lingering command planted in Mara Jade's mind by Palpatine after his death?",
+    "options": [
+      "Protect the Empire",
+      "Kill Luke Skywalker",
+      "Find Mount Tantiss",
+      "Serve Thrawn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Palpatine's final telepathic command to Mara Jade was to kill Luke Skywalker."
+  },
+  {
+    "question": "What Sith name did Revan use after falling to the dark side?",
+    "options": [
+      "Darth Malak",
+      "Darth Revan",
+      "Darth Nihilus",
+      "Darth Caedus"
+    ],
+    "correctIndex": 1,
+    "explanation": "After turning to the dark side, Revan became known as Darth Revan."
+  },
+  {
+    "question": "Which Force ability is Bastila Shan especially famous for?",
+    "options": [
+      "Force stealth",
+      "Battle meditation",
+      "Force lightning",
+      "Shatterpoint"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bastila Shan was renowned for her powerful battle meditation."
+  },
+  {
+    "question": "Who was Darth Malak's Sith master before Malak took power for himself?",
+    "options": [
+      "Exar Kun",
+      "Darth Bane",
+      "Darth Revan",
+      "Freedon Nadd"
+    ],
+    "correctIndex": 2,
+    "explanation": "Malak served as Darth Revan's apprentice before betraying him."
+  },
+  {
+    "question": "What kind of droid is HK-47 in Knights of the Old Republic?",
+    "options": [
+      "Protocol droid",
+      "Astromech droid",
+      "Assassin droid",
+      "Medical droid"
+    ],
+    "correctIndex": 2,
+    "explanation": "HK-47 is an assassin droid famous for calling organics 'meatbags'."
+  },
+  {
+    "question": "What is the name of the iconic ship used by the heroes in Knights of the Old Republic?",
+    "options": [
+      "Outrider",
+      "Raven's Claw",
+      "Ebon Hawk",
+      "Wild Karrde"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Ebon Hawk serves as the party's ship in Knights of the Old Republic."
+  },
+  {
+    "question": "Which ancient Sith spirit haunted Yavin 4 in the Jedi Academy stories?",
+    "options": [
+      "Marka Ragnos",
+      "Ajunta Pall",
+      "Exar Kun",
+      "Naga Sadow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Exar Kun's spirit haunted Yavin 4 and threatened Luke's new Jedi academy."
+  },
+  {
+    "question": "Which Sith Lord established the Rule of Two in Legends?",
+    "options": [
+      "Darth Sidious",
+      "Darth Bane",
+      "Darth Revan",
+      "Darth Krayt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Darth Bane created the Rule of Two: one master and one apprentice."
+  },
+  {
+    "question": "Who became Darth Bane's apprentice?",
+    "options": [
+      "Darth Talon",
+      "Darth Cognus",
+      "Darth Zannah",
+      "Lumiya"
+    ],
+    "correctIndex": 2,
+    "explanation": "Darth Zannah was chosen by Bane to continue the Banite Sith line."
+  },
+  {
+    "question": "Which title is commonly associated with Darth Nihilus?",
+    "options": [
+      "Lord of Rage",
+      "Lord of Hunger",
+      "Dark Lord of Flame",
+      "Master of Shadows"
+    ],
+    "correctIndex": 1,
+    "explanation": "Darth Nihilus is often called the Lord of Hunger because of his endless consumption."
+  },
+  {
+    "question": "What nickname is most closely tied to Darth Sion?",
+    "options": [
+      "The Butcher of Onderon",
+      "The Lord of Pain",
+      "The Shadow King",
+      "The Iron Sith"
+    ],
+    "correctIndex": 1,
+    "explanation": "Darth Sion is known as the Lord of Pain for sustaining himself through agony and dark side will."
+  },
+  {
+    "question": "What was Kyle Katarn before he became a Jedi?",
+    "options": [
+      "An Imperial officer turned mercenary",
+      "A senator from Chandrila",
+      "A clone commando",
+      "A Hapan prince"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kyle Katarn began as a former Imperial officer before becoming a mercenary and later a Jedi."
+  },
+  {
+    "question": "What Force nexus did Jerec seek in Dark Forces II: Jedi Knight?",
+    "options": [
+      "The Maw",
+      "The Valley of the Jedi",
+      "The World Between Worlds",
+      "The Wellspring of Life"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jerec hunted for the Valley of the Jedi to claim its immense power."
+  },
+  {
+    "question": "What was the name of Luke Skywalker's Jedi academy on Yavin 4 in Legends?",
+    "options": [
+      "Jedi Temple Prime",
+      "New Order Enclave",
+      "Jedi Praxeum",
+      "Skywalker Academy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Luke founded the Jedi Praxeum on Yavin 4 to train a new generation of Jedi."
+  },
+  {
+    "question": "Which Solo child dies during the New Jedi Order series?",
+    "options": [
+      "Jacen Solo",
+      "Jaina Solo",
+      "Anakin Solo",
+      "Ben Skywalker"
+    ],
+    "correctIndex": 2,
+    "explanation": "Anakin Solo dies during the Yuuzhan Vong war in the New Jedi Order era."
+  },
+  {
+    "question": "What Sith name does Jacen Solo eventually take in Legends?",
+    "options": [
+      "Darth Maladi",
+      "Darth Krayt",
+      "Darth Caedus",
+      "Darth Wyyrlok"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jacen Solo falls and becomes Darth Caedus in the Legacy of the Force series."
+  },
+  {
+    "question": "Which Hapan ruler has a daughter with Jacen Solo in Legends?",
+    "options": [
+      "Ta'a Chume",
+      "Tenel Ka Djo",
+      "Teneniel Djo",
+      "Winter Retrac"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jacen Solo and Tenel Ka Djo are the parents of Allana Solo."
+  },
+  {
+    "question": "What is the name of Jacen Solo and Tenel Ka's daughter?",
+    "options": [
+      "Ania",
+      "Syal",
+      "Allana",
+      "Jysella"
+    ],
+    "correctIndex": 2,
+    "explanation": "Allana Solo is the daughter of Jacen Solo and Tenel Ka."
+  },
+  {
+    "question": "What life does Cade Skywalker initially try to live in the Legacy comics?",
+    "options": [
+      "Jedi Council member",
+      "Bounty hunter and pirate",
+      "Imperial admiral",
+      "Hapan diplomat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cade Skywalker rejects the Jedi path for a time and works as a bounty hunter and pirate."
+  },
+  {
+    "question": "Which Sith Lord leads the One Sith in the Legacy era?",
+    "options": [
+      "Darth Krayt",
+      "Darth Ruin",
+      "Darth Talon",
+      "Lumiya"
+    ],
+    "correctIndex": 0,
+    "explanation": "Darth Krayt founds and leads the One Sith in the Legacy comics."
+  },
+  {
+    "question": "Who is the central Jedi exile protagonist of Knights of the Old Republic II?",
+    "options": [
+      "Meetra Surik",
+      "Nomi Sunrider",
+      "Jaina Solo",
+      "Atris"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Jedi Exile in Knights of the Old Republic II is Meetra Surik."
+  },
+  {
+    "question": "Which ancient Sith Lord originally wielded the spirit-draining power later echoed by Darth Nihilus?",
+    "options": [
+      "Freedon Nadd",
+      "Vitiate",
+      "Tulak Hord",
+      "Darth Ruin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitiate is notorious in Legends for consuming life on a planetary scale through the dark side."
+  }
+]

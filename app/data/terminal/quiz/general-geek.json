@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which company created the original Game Boy?",
+    "options": [
+      "Sega",
+      "Nintendo",
+      "Atari",
+      "Sony"
+    ],
+    "correctIndex": 1,
+    "explanation": "The original Game Boy was released by Nintendo in 1989."
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Process Unit",
+      "Central Processing Unit",
+      "Computer Processing Utility",
+      "Control Program Unit"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPU stands for Central Processing Unit."
+  },
+  {
+    "question": "Which protocol is mainly used to load websites in a browser?",
+    "options": [
+      "FTP",
+      "SSH",
+      "HTTP",
+      "SMTP"
+    ],
+    "correctIndex": 2,
+    "explanation": "HTTP and HTTPS are the standard web protocols for browsers."
+  },
+  {
+    "question": "In Star Trek, what is the registry of the USS Enterprise in the original series?",
+    "options": [
+      "NCC-1701",
+      "NCC-1701-A",
+      "NX-01",
+      "NTE-1979"
+    ],
+    "correctIndex": 0,
+    "explanation": "The original USS Enterprise carries the registry NCC-1701."
+  },
+  {
+    "question": "Which language is primarily used for styling web pages?",
+    "options": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "Bash"
+    ],
+    "correctIndex": 1,
+    "explanation": "CSS handles visual styling and layout on the web."
+  },
+  {
+    "question": "Which character is known as the bounty hunter in The Mandalorian?",
+    "options": [
+      "Din Djarin",
+      "Cassian Andor",
+      "Boba Fett",
+      "Moff Gideon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Din Djarin is the Mandalorian protagonist in the series."
+  },
+  {
+    "question": "What is the name of the AI aboard the Discovery One in 2001: A Space Odyssey?",
+    "options": [
+      "GERTY",
+      "HAL 9000",
+      "Mother",
+      "Jarvis"
+    ],
+    "correctIndex": 1,
+    "explanation": "HAL 9000 is the iconic AI from 2001: A Space Odyssey."
+  },
+  {
+    "question": "Which data structure works on a Last In, First Out principle?",
+    "options": [
+      "Queue",
+      "Tree",
+      "Stack",
+      "Graph"
+    ],
+    "correctIndex": 2,
+    "explanation": "A stack follows the LIFO principle."
+  },
+  {
+    "question": "Who wrote The Lord of the Rings?",
+    "options": [
+      "Ursula K. Le Guin",
+      "J. R. R. Tolkien",
+      "George R. R. Martin",
+      "Terry Pratchett"
+    ],
+    "correctIndex": 1,
+    "explanation": "J. R. R. Tolkien wrote The Lord of the Rings."
+  },
+  {
+    "question": "Which command is commonly used in Git to download a remote repository?",
+    "options": [
+      "git fetch",
+      "git clone",
+      "git pull",
+      "git init"
+    ],
+    "correctIndex": 1,
+    "explanation": "git clone creates a local copy of a remote repository."
+  },
+  {
+    "question": "Which planet is home to the Sarlacc pit in Star Wars?",
+    "options": [
+      "Tatooine",
+      "Naboo",
+      "Hoth",
+      "Coruscant"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Sarlacc pit appears on Tatooine."
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Rapid Action Module",
+      "Runtime Allocation Matrix"
+    ],
+    "correctIndex": 1,
+    "explanation": "RAM stands for Random Access Memory."
+  },
+  {
+    "question": "Which superhero is also known as the Dark Knight?",
+    "options": [
+      "Iron Man",
+      "Batman",
+      "Moon Knight",
+      "Spawn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Batman is widely known as the Dark Knight."
+  },
+  {
+    "question": "Which company develops the Firefox browser?",
+    "options": [
+      "Mozilla",
+      "Opera",
+      "Google",
+      "Apple"
+    ],
+    "correctIndex": 0,
+    "explanation": "Firefox is developed by Mozilla."
+  },
+  {
+    "question": "In The Hitchhiker's Guide to the Galaxy, what is the answer to life, the universe, and everything?",
+    "options": [
+      "7",
+      "101",
+      "42",
+      "9000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Douglas Adams famously made the answer 42."
+  },
+  {
+    "question": "Which keyword defines a constant in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctIndex": 2,
+    "explanation": "const declares a block-scoped constant binding."
+  },
+  {
+    "question": "Which console game introduced the Chaos Emeralds?",
+    "options": [
+      "Super Mario Bros.",
+      "The Legend of Zelda",
+      "Sonic the Hedgehog",
+      "Metroid"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Chaos Emeralds are a core element of the Sonic series."
+  },
+  {
+    "question": "What does DNS do on the internet?",
+    "options": [
+      "Encrypts traffic",
+      "Translates domain names into IP addresses",
+      "Stores website files",
+      "Measures network speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "DNS resolves human-friendly domain names to IP addresses."
+  },
+  {
+    "question": "Which material powers the arc reactor associated with Tony Stark's suit?",
+    "options": [
+      "Adamantium",
+      "Kryptonite",
+      "Palladium",
+      "Vibranium"
+    ],
+    "correctIndex": 2,
+    "explanation": "Palladium is used in the early Iron Man arc reactor storyline."
+  },
+  {
+    "question": "Which operating system is developed by Apple for the Mac?",
+    "options": [
+      "Windows",
+      "Ubuntu",
+      "macOS",
+      "FreeBSD"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apple's desktop operating system for the Mac is macOS."
+  }
+]

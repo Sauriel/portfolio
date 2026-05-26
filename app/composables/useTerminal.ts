@@ -1,4 +1,5 @@
 import type { ITheme } from '@xterm/xterm';
+import type { TerminalWithSession } from './terminal/types';
 import { FitAddon } from '@xterm/addon-fit';
 import { Terminal } from '@xterm/xterm';
 import { commands } from './terminal/commands';
@@ -81,7 +82,7 @@ export function useTerminal(terminalEl: HTMLDivElement) {
     fontSize: 14,
     fontFamily: '"Victor Mono", "Menlo", Monaco, monospace',
     theme: isDarkMode.value ? DARK_THEME : LIGHT_THEME,
-  });
+  }) as TerminalWithSession;
   const fitAddon = new FitAddon();
   terminal.loadAddon(fitAddon);
 
@@ -89,7 +90,7 @@ export function useTerminal(terminalEl: HTMLDivElement) {
   fitAddon.fit();
 
   // Store command registry for help command access
-  (terminal as any).__commandRegistry = commands;
+  terminal.__commandRegistry = commands;
 
   // Display welcome message
   terminal.writeln('\x1B[1;32mWelcome to the Portfolio Terminal!\x1B[0m');

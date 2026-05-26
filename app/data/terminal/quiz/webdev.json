@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Which HTML5 element is intended for self-contained content like a blog post or news entry?",
+    "options": [
+      "section",
+      "article",
+      "aside",
+      "main"
+    ],
+    "correctIndex": 1,
+    "explanation": "The article element is meant for self-contained, reusable content units."
+  },
+  {
+    "question": "Which HTML element provides a caption for a form control?",
+    "options": [
+      "legend",
+      "caption",
+      "label",
+      "summary"
+    ],
+    "correctIndex": 2,
+    "explanation": "The label element associates descriptive text with a form control."
+  },
+  {
+    "question": "What does the HTML attribute `loading=\"lazy\"` do on an image?",
+    "options": [
+      "Compresses the image",
+      "Defers loading until needed",
+      "Preloads the image earlier",
+      "Disables caching"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lazy loading delays fetching the image until it is close to entering the viewport."
+  },
+  {
+    "question": "Which HTML5 input type is best suited for validating email addresses?",
+    "options": [
+      "text",
+      "mail",
+      "contact",
+      "email"
+    ],
+    "correctIndex": 3,
+    "explanation": "The email input type provides built-in browser validation for email-like values."
+  },
+  {
+    "question": "Which HTML element is used to draw graphics via JavaScript?",
+    "options": [
+      "svg",
+      "canvas",
+      "figure",
+      "graphic"
+    ],
+    "correctIndex": 1,
+    "explanation": "The canvas element exposes a drawing surface controlled through JavaScript APIs."
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Computer Styled Syntax",
+      "Colorful Sheet System"
+    ],
+    "correctIndex": 1,
+    "explanation": "CSS stands for Cascading Style Sheets."
+  },
+  {
+    "question": "Which CSS layout module is best for arranging items in one dimension, like a row or a column?",
+    "options": [
+      "Grid",
+      "Flexbox",
+      "Float",
+      "Positioning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Flexbox is designed for one-dimensional layout along a row or column axis."
+  },
+  {
+    "question": "Which CSS property controls the stacking order of positioned elements?",
+    "options": [
+      "order",
+      "layer",
+      "z-index",
+      "stack"
+    ],
+    "correctIndex": 2,
+    "explanation": "z-index controls stacking order for positioned elements in the same stacking context."
+  },
+  {
+    "question": "What does `box-sizing: border-box` change in CSS?",
+    "options": [
+      "It removes borders from the box model",
+      "It includes padding and border in the element's declared width and height",
+      "It forces square boxes",
+      "It disables overflow"
+    ],
+    "correctIndex": 1,
+    "explanation": "With border-box, the specified width and height include padding and borders."
+  },
+  {
+    "question": "Which CSS function is commonly used to make font sizes responsive between a minimum and maximum value?",
+    "options": [
+      "mix()",
+      "fit()",
+      "clamp()",
+      "bound()"
+    ],
+    "correctIndex": 2,
+    "explanation": "clamp() is often used for fluid typography with lower and upper bounds."
+  },
+  {
+    "question": "Which TypeScript keyword defines a custom object shape without creating runtime JavaScript output?",
+    "options": [
+      "class",
+      "interface",
+      "enum",
+      "namespace"
+    ],
+    "correctIndex": 1,
+    "explanation": "An interface defines a structural contract and is erased during compilation."
+  },
+  {
+    "question": "What is the TypeScript type of a variable declared as `let value: string | number`?",
+    "options": [
+      "Tuple type",
+      "Generic type",
+      "Union type",
+      "Mapped type"
+    ],
+    "correctIndex": 2,
+    "explanation": "A type using `|` is a union type."
+  },
+  {
+    "question": "Which TypeScript keyword narrows a property or parameter to be immutable after initialization?",
+    "options": [
+      "const",
+      "readonly",
+      "static",
+      "final"
+    ],
+    "correctIndex": 1,
+    "explanation": "readonly marks properties as not assignable after initialization."
+  },
+  {
+    "question": "What does the TypeScript `unknown` type require before using a value safely?",
+    "options": [
+      "Automatic casting",
+      "A type assertion or narrowing",
+      "No extra step",
+      "Conversion to any"
+    ],
+    "correctIndex": 1,
+    "explanation": "unknown is safer than any and requires a check or assertion before use."
+  },
+  {
+    "question": "Which TypeScript utility type makes all properties of a type optional?",
+    "options": [
+      "Readonly<T>",
+      "Required<T>",
+      "Partial<T>",
+      "Pick<T>"
+    ],
+    "correctIndex": 2,
+    "explanation": "Partial<T> converts every property in T into an optional property."
+  },
+  {
+    "question": "Which Vue directive is used for two-way binding on form inputs?",
+    "options": [
+      "v-bind",
+      "v-model",
+      "v-on",
+      "v-slot"
+    ],
+    "correctIndex": 1,
+    "explanation": "v-model provides two-way binding between form elements and component state."
+  },
+  {
+    "question": "What is the purpose of `computed` in Vue?",
+    "options": [
+      "Trigger manual DOM updates",
+      "Define cached derived state",
+      "Register routes",
+      "Watch browser events only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Computed properties derive values from reactive state and are cached until dependencies change."
+  },
+  {
+    "question": "Which Vue hook runs after a component has been mounted to the DOM?",
+    "options": [
+      "created",
+      "mounted",
+      "setup",
+      "beforeCreate"
+    ],
+    "correctIndex": 1,
+    "explanation": "mounted runs after the component has been inserted into the DOM."
+  },
+  {
+    "question": "In Vue, which helper is used to create a reactive reference for a primitive value?",
+    "options": [
+      "reactive",
+      "ref",
+      "watch",
+      "provide"
+    ],
+    "correctIndex": 1,
+    "explanation": "ref is used for reactive primitive values and exposes the value through `.value`."
+  },
+  {
+    "question": "What is the main purpose of a Vue `watch` function?",
+    "options": [
+      "Render templates faster",
+      "React to changes with side effects",
+      "Create props",
+      "Register plugins"
+    ],
+    "correctIndex": 1,
+    "explanation": "watch is intended for reacting to state changes with side effects such as fetching or logging."
+  },
+  {
+    "question": "Which file-based directory usually defines routes automatically in a Nuxt app?",
+    "options": [
+      "components/",
+      "composables/",
+      "pages/",
+      "server/"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nuxt creates routes automatically from files in the pages directory."
+  },
+  {
+    "question": "What is `useAsyncData` in Nuxt primarily used for?",
+    "options": [
+      "Animating page transitions",
+      "Fetching async data with SSR support",
+      "Registering middleware",
+      "Building CSS classes"
+    ],
+    "correctIndex": 1,
+    "explanation": "useAsyncData fetches asynchronous data and integrates with Nuxt SSR and caching behavior."
+  },
+  {
+    "question": "Which Nuxt config file is commonly used to configure modules and app behavior?",
+    "options": [
+      "nuxt.config.ts",
+      "vite.config.ts",
+      "app.config.json",
+      "routes.config.ts"
+    ],
+    "correctIndex": 0,
+    "explanation": "nuxt.config.ts is the main configuration file for a Nuxt project."
+  },
+  {
+    "question": "Which Nuxt component is commonly used for internal client-side navigation?",
+    "options": [
+      "NuxtHref",
+      "RouterAnchor",
+      "NuxtLink",
+      "AppLink"
+    ],
+    "correctIndex": 2,
+    "explanation": "NuxtLink is used for internal navigation and integrates with the router."
+  },
+  {
+    "question": "What does Nuxt server-side rendering primarily improve for many sites?",
+    "options": [
+      "Only bundle size",
+      "SEO and first-content delivery",
+      "Mouse tracking",
+      "Database indexing"
+    ],
+    "correctIndex": 1,
+    "explanation": "SSR can improve SEO and often speeds up the first meaningful content response."
+  },
+  {
+    "question": "Which file in a Svelte app usually contains a component definition?",
+    "options": [
+      "Component.vue",
+      "Component.jsx",
+      "Component.svelte",
+      "Component.tsx"
+    ],
+    "correctIndex": 2,
+    "explanation": "Svelte components are authored in `.svelte` files."
+  },
+  {
+    "question": "In Svelte, which syntax is used to render a variable in markup?",
+    "options": [
+      "{{ value }}",
+      "<%= value %>",
+      "{value}",
+      "[[ value ]]"
+    ],
+    "correctIndex": 2,
+    "explanation": "Svelte interpolates values in markup with curly braces like `{value}`."
+  },
+  {
+    "question": "Which Svelte directive listens for DOM events such as clicks?",
+    "options": [
+      "bind:",
+      "class:",
+      "on:",
+      "use:"
+    ],
+    "correctIndex": 2,
+    "explanation": "The `on:` directive attaches DOM event listeners in Svelte templates."
+  },
+  {
+    "question": "What does `bind:value` do in Svelte on an input element?",
+    "options": [
+      "Adds a CSS variable",
+      "Creates two-way binding between the input and state",
+      "Sets a default prop only",
+      "Validates the field automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "bind:value keeps the input element and component state synchronized in both directions."
+  },
+  {
+    "question": "Which Svelte block is used for conditional rendering?",
+    "options": [
+      "#for",
+      "#if",
+      "#slot",
+      "#let"
+    ],
+    "correctIndex": 1,
+    "explanation": "Svelte uses `{#if ...}` blocks for conditional rendering."
+  },
+  {
+    "question": "Which HTML5 landmark element should usually wrap the main unique content of a page?",
+    "options": [
+      "main",
+      "header",
+      "footer",
+      "nav"
+    ],
+    "correctIndex": 0,
+    "explanation": "The main element represents the dominant, unique content of the document body."
+  },
+  {
+    "question": "Which CSS unit is relative to the root element's font size?",
+    "options": [
+      "em",
+      "vh",
+      "rem",
+      "%"
+    ],
+    "correctIndex": 2,
+    "explanation": "rem is based on the font size of the root html element."
+  },
+  {
+    "question": "Which TypeScript feature lets you express that one type depends on another type parameter?",
+    "options": [
+      "Decorators",
+      "Generics",
+      "Namespaces",
+      "Assertions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Generics let types and functions work with type parameters in a reusable way."
+  },
+  {
+    "question": "In Vue single-file components, which block usually contains the component's styles?",
+    "options": [
+      "<script>",
+      "<style>",
+      "<template>",
+      "<head>"
+    ],
+    "correctIndex": 1,
+    "explanation": "The style block in a Vue SFC contains the component's CSS."
+  },
+  {
+    "question": "Which Nuxt directory is commonly used for reusable composable functions like `useSomething`?",
+    "options": [
+      "assets/",
+      "layouts/",
+      "composables/",
+      "plugins/"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reusable composable functions are typically placed in the composables directory."
+  }
+]

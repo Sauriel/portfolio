@@ -1,13 +1,14 @@
 import type { CommandRegistry } from '../types';
-import { helpCommand } from './help';
-import { fastfetchCommand } from './fastfetch';
+import { aboutCommand } from './about';
 import { clearCommand } from './clear';
 import { echoCommand } from './echo';
-import { aboutCommand } from './about';
+import { fastfetchCommand } from './fastfetch';
+import { helpCommand } from './help';
+import { quizCommand } from './quiz';
 
 /**
  * Registry of all available terminal commands.
- * 
+ *
  * To add a new command:
  * 1. Create a new file in this directory (e.g., 'mycommand.ts')
  * 2. Export a command object with name, description, and execute function
@@ -19,4 +20,5 @@ export const commands: CommandRegistry = {
   clear: clearCommand,
   echo: echoCommand,
   about: aboutCommand,
+  quiz: quizCommand,
 };

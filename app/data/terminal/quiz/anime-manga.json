@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Who created the manga One Piece?",
+    "options": [
+      "Masashi Kishimoto",
+      "Eiichiro Oda",
+      "Tite Kubo",
+      "Hajime Isayama"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eiichiro Oda is the creator of One Piece."
+  },
+  {
+    "question": "What is the name of Naruto's signature attack?",
+    "options": [
+      "Chidori",
+      "Kamehameha",
+      "Rasengan",
+      "Getsuga Tensho"
+    ],
+    "correctIndex": 2,
+    "explanation": "Naruto is famous for using the Rasengan."
+  },
+  {
+    "question": "In Death Note, what is the name of the detective pursuing Kira?",
+    "options": [
+      "Near",
+      "Mello",
+      "L",
+      "Matsuda"
+    ],
+    "correctIndex": 2,
+    "explanation": "L is the first detective leading the Kira investigation."
+  },
+  {
+    "question": "Which studio produced Spirited Away?",
+    "options": [
+      "Madhouse",
+      "Studio Ghibli",
+      "Toei Animation",
+      "Bones"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spirited Away was produced by Studio Ghibli."
+  },
+  {
+    "question": "Who is the main protagonist of Attack on Titan?",
+    "options": [
+      "Levi Ackerman",
+      "Armin Arlert",
+      "Eren Yeager",
+      "Reiner Braun"
+    ],
+    "correctIndex": 2,
+    "explanation": "Eren Yeager is the central protagonist of the story."
+  },
+  {
+    "question": "What is the name of Goku's Saiyan birth name?",
+    "options": [
+      "Bardock",
+      "Kakarot",
+      "Broly",
+      "Vegeta"
+    ],
+    "correctIndex": 1,
+    "explanation": "Goku's Saiyan name is Kakarot."
+  },
+  {
+    "question": "In Fullmetal Alchemist, what taboo do the Elric brothers commit?",
+    "options": [
+      "Human transmutation",
+      "State alchemist treason",
+      "Forbidden automail crafting",
+      "Alchemy without circles"
+    ],
+    "correctIndex": 0,
+    "explanation": "They attempt human transmutation to bring back their mother."
+  },
+  {
+    "question": "Which anime features pirates searching for a legendary treasure?",
+    "options": [
+      "Bleach",
+      "Black Clover",
+      "One Piece",
+      "Fairy Tail"
+    ],
+    "correctIndex": 2,
+    "explanation": "One Piece follows pirates searching for the One Piece treasure."
+  },
+  {
+    "question": "What is the name of the titan city in Attack on Titan's first arc?",
+    "options": [
+      "Shiganshina",
+      "Mitras",
+      "Trost",
+      "Liberio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The story starts with the fall of Shiganshina District."
+  },
+  {
+    "question": "Who is the captain of the Straw Hat Pirates?",
+    "options": [
+      "Roronoa Zoro",
+      "Monkey D. Luffy",
+      "Portgas D. Ace",
+      "Trafalgar Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Luffy is the captain of the Straw Hat crew."
+  },
+  {
+    "question": "In My Hero Academia, what is Izuku Midoriya's hero name?",
+    "options": [
+      "Deku",
+      "Dynamight",
+      "Ingenium",
+      "Shoto"
+    ],
+    "correctIndex": 0,
+    "explanation": "Izuku chooses the hero name Deku."
+  },
+  {
+    "question": "Which series features the organization called Akatsuki?",
+    "options": [
+      "Bleach",
+      "Naruto",
+      "Jujutsu Kaisen",
+      "Demon Slayer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Akatsuki is a major antagonistic group in Naruto."
+  },
+  {
+    "question": "What is Light Yagami's alias in Death Note?",
+    "options": [
+      "Zero",
+      "Kira",
+      "L",
+      "Ryuk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Light is known to the public as Kira."
+  },
+  {
+    "question": "Which anime follows a volleyball team from Karasuno High?",
+    "options": [
+      "Kuroko's Basketball",
+      "Blue Lock",
+      "Haikyu!!",
+      "Ace of Diamond"
+    ],
+    "correctIndex": 2,
+    "explanation": "Haikyu!! centers on Karasuno's volleyball team."
+  },
+  {
+    "question": "Who is known as the 'Flame Alchemist' in Fullmetal Alchemist?",
+    "options": [
+      "Riza Hawkeye",
+      "Alex Armstrong",
+      "Roy Mustang",
+      "Maes Hughes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Roy Mustang is famously called the Flame Alchemist."
+  },
+  {
+    "question": "Which anime film won the Academy Award for Best Animated Feature in 2003?",
+    "options": [
+      "Howl's Moving Castle",
+      "Spirited Away",
+      "Princess Mononoke",
+      "Your Name"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spirited Away won the Oscar in 2003."
+  },
+  {
+    "question": "In Demon Slayer, what is Nezuko's relation to Tanjiro?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Friend",
+      "Mentor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nezuko is Tanjiro's younger sister."
+  },
+  {
+    "question": "Which anime centers on cursed spirits and jujutsu sorcerers?",
+    "options": [
+      "Tokyo Ghoul",
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "Mob Psycho 100"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jujutsu Kaisen focuses on curses and sorcerers."
+  },
+  {
+    "question": "Who is Luffy's first crewmate in One Piece?",
+    "options": [
+      "Nami",
+      "Usopp",
+      "Sanji",
+      "Roronoa Zoro"
+    ],
+    "correctIndex": 3,
+    "explanation": "Zoro is the first crew member to join Luffy."
+  },
+  {
+    "question": "In Bleach, what is Ichigo Kurosaki's role?",
+    "options": [
+      "Soul Reaper",
+      "Ninja",
+      "Alchemist",
+      "Pirate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ichigo becomes a Soul Reaper in Bleach."
+  },
+  {
+    "question": "Which manga is written and illustrated by Kentaro Miura?",
+    "options": [
+      "Vinland Saga",
+      "Berserk",
+      "Claymore",
+      "Dorohedoro"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kentaro Miura is the creator of Berserk."
+  },
+  {
+    "question": "In Hunter x Hunter, what is the name of Gon Freecss's father?",
+    "options": [
+      "Silva",
+      "Leorio",
+      "Ging",
+      "Hisoka"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gon's father is Ging Freecss."
+  },
+  {
+    "question": "Which anime has a notebook that kills people whose names are written in it?",
+    "options": [
+      "Erased",
+      "Death Note",
+      "Parasyte",
+      "Steins;Gate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Death Note's central object is the deadly notebook."
+  },
+  {
+    "question": "What is the name of the world where Sword Art Online begins?",
+    "options": [
+      "Gun Gale Online",
+      "Alfheim Online",
+      "Aincrad",
+      "Underworld"
+    ],
+    "correctIndex": 2,
+    "explanation": "The first arc takes place in the floating castle Aincrad."
+  },
+  {
+    "question": "Which series follows brothers Tanjiro and Nezuko fighting demons?",
+    "options": [
+      "Blue Exorcist",
+      "Demon Slayer",
+      "Noragami",
+      "Seraph of the End"
+    ],
+    "correctIndex": 1,
+    "explanation": "Demon Slayer follows Tanjiro and Nezuko's journey."
+  },
+  {
+    "question": "In Neon Genesis Evangelion, what are giant biomechanical units called?",
+    "options": [
+      "Gundams",
+      "Evas",
+      "Zords",
+      "Titans"
+    ],
+    "correctIndex": 1,
+    "explanation": "Piloted units in Evangelion are called Evangelions or Evas."
+  },
+  {
+    "question": "Who is Naruto's rival and teammate in Team 7?",
+    "options": [
+      "Shikamaru Nara",
+      "Kakashi Hatake",
+      "Sasuke Uchiha",
+      "Rock Lee"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sasuke is Naruto's longtime rival and teammate."
+  },
+  {
+    "question": "What sport does Kuroko's Basketball focus on?",
+    "options": [
+      "Volleyball",
+      "Soccer",
+      "Basketball",
+      "Baseball"
+    ],
+    "correctIndex": 2,
+    "explanation": "The series is centered on high-level basketball competition."
+  },
+  {
+    "question": "In One Punch Man, what is Saitama famous for?",
+    "options": [
+      "Controlling fire",
+      "Defeating enemies with one punch",
+      "Using a notebook of death",
+      "Becoming Hokage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Saitama can end most fights with a single punch."
+  },
+  {
+    "question": "Which anime is set in Amestris and features alchemy?",
+    "options": [
+      "Magi",
+      "Fullmetal Alchemist",
+      "Black Butler",
+      "Made in Abyss"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fullmetal Alchemist takes place in Amestris."
+  },
+  {
+    "question": "What is the title given to the strongest sorcerer in Jujutsu Kaisen, Satoru Gojo?",
+    "options": [
+      "The Cursed King",
+      "The Honored One",
+      "The White Reaper",
+      "The Limitless Sage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gojo is often referred to as 'the Honored One.'"
+  },
+  {
+    "question": "Which manga by Naoko Takeuchi transformed the magical girl genre globally?",
+    "options": [
+      "Cardcaptor Sakura",
+      "Pretty Cure",
+      "Sailor Moon",
+      "Tokyo Mew Mew"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sailor Moon had massive international impact on the genre."
+  },
+  {
+    "question": "In Dragon Ball Z, what is Vegeta's title at the start of the series?",
+    "options": [
+      "Prince of all Saiyans",
+      "Emperor of Namek",
+      "Commander of Frieza Force",
+      "King of Earth"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vegeta calls himself the Prince of all Saiyans."
+  },
+  {
+    "question": "Which anime follows Edward and Alphonse Elric?",
+    "options": [
+      "Trigun",
+      "Fullmetal Alchemist",
+      "Code Geass",
+      "Baccano!"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Elric brothers are protagonists of Fullmetal Alchemist."
+  },
+  {
+    "question": "Who is the author of Attack on Titan?",
+    "options": [
+      "Hajime Isayama",
+      "Kohei Horikoshi",
+      "Yoshihiro Togashi",
+      "Makoto Yukimura"
+    ],
+    "correctIndex": 0,
+    "explanation": "Attack on Titan was created by Hajime Isayama."
+  },
+  {
+    "question": "What does 'shonen' generally refer to in manga/anime demographics?",
+    "options": [
+      "Content aimed at young boys",
+      "Content aimed at adult women",
+      "Historical samurai fiction only",
+      "A drawing style with no demographic meaning"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shonen titles are typically targeted at young male readers."
+  },
+  {
+    "question": "Which character from Cowboy Bebop is a former syndicate member with a blue suit?",
+    "options": [
+      "Jet Black",
+      "Spike Spiegel",
+      "Vicious",
+      "Ein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spike Spiegel is the former syndicate member protagonist."
+  },
+  {
+    "question": "In Tokyo Ghoul, what is the name of the protagonist turned half-ghoul?",
+    "options": [
+      "Hideyoshi Nagachika",
+      "Ken Kaneki",
+      "Juuzou Suzuya",
+      "Koutarou Amon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ken Kaneki becomes a half-ghoul after surgery."
+  },
+  {
+    "question": "Which anime movie by Makoto Shinkai became a global hit in 2016?",
+    "options": [
+      "Weathering with You",
+      "5 Centimeters per Second",
+      "Your Name",
+      "Suzume"
+    ],
+    "correctIndex": 2,
+    "explanation": "Your Name was a major international success in 2016."
+  },
+  {
+    "question": "What is the name of the giant walls in Attack on Titan's early setting?",
+    "options": [
+      "Wall Maria, Wall Rose, Wall Sina",
+      "Wall Alpha, Wall Beta, Wall Gamma",
+      "Wall East, Wall West, Wall North",
+      "Wall Titan, Wall Guard, Wall King"
+    ],
+    "correctIndex": 0,
+    "explanation": "The three main walls are Maria, Rose, and Sina."
+  },
+  {
+    "question": "Who is the captain of the Black Bulls in Black Clover?",
+    "options": [
+      "Yami Sukehiro",
+      "Julius Novachrono",
+      "Nozel Silva",
+      "Fuegoleon Vermillion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yami Sukehiro leads the Black Bulls."
+  },
+  {
+    "question": "Which series features the survey corps and ODM gear?",
+    "options": [
+      "Fire Force",
+      "Attack on Titan",
+      "Blue Exorcist",
+      "Seraph of the End"
+    ],
+    "correctIndex": 1,
+    "explanation": "ODM gear is iconic equipment in Attack on Titan."
+  },
+  {
+    "question": "In One Piece, what is the name of the treasure Gol D. Roger left behind?",
+    "options": [
+      "Red Poneglyph",
+      "The Grand Prize",
+      "One Piece",
+      "Laugh Tale Key"
+    ],
+    "correctIndex": 2,
+    "explanation": "The legendary treasure is called the One Piece."
+  },
+  {
+    "question": "What is the profession of Loid Forger in Spy x Family?",
+    "options": [
+      "Detective",
+      "Assassin",
+      "Spy",
+      "Teacher"
+    ],
+    "correctIndex": 2,
+    "explanation": "Loid is an undercover spy known as Twilight."
+  },
+  {
+    "question": "Which anime classic features bounty hunters aboard the Bebop spaceship?",
+    "options": [
+      "Outlaw Star",
+      "Cowboy Bebop",
+      "Space Dandy",
+      "Trigun"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cowboy Bebop follows a team of bounty hunters on the Bebop."
+  },
+  {
+    "question": "Who is the protagonist of Chainsaw Man?",
+    "options": [
+      "Aki Hayakawa",
+      "Denji",
+      "Power",
+      "Kishibe"
+    ],
+    "correctIndex": 1,
+    "explanation": "Denji is the central character of Chainsaw Man."
+  },
+  {
+    "question": "Which anime adaptation by Ufotable is praised for dynamic swordfight animation?",
+    "options": [
+      "Demon Slayer",
+      "Bleach",
+      "Naruto",
+      "One Piece"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ufotable's Demon Slayer adaptation is known for standout action animation."
+  },
+  {
+    "question": "In My Hero Academia, who grants Izuku the quirk One For All?",
+    "options": [
+      "All Might",
+      "Endeavor",
+      "Shigaraki",
+      "Gran Torino"
+    ],
+    "correctIndex": 0,
+    "explanation": "All Might chooses Izuku as his successor."
+  },
+  {
+    "question": "Which manga by Takehiko Inoue focuses on wheelchair basketball?",
+    "options": [
+      "Slam Dunk",
+      "Real",
+      "Vagabond",
+      "Buzzer Beater"
+    ],
+    "correctIndex": 1,
+    "explanation": "Real is Inoue's manga centered on wheelchair basketball."
+  },
+  {
+    "question": "Which anime franchise features giant robots called mobile suits?",
+    "options": [
+      "Evangelion",
+      "Code Geass",
+      "Gundam",
+      "Darling in the Franxx"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Gundam franchise is centered on mobile suits."
+  }
+]
