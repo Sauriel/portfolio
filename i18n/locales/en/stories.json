@@ -1,0 +1,18 @@
+{
+  "stories": {
+    "title": "Stories",
+    "intro": "Here you will find a selection of my stories, from short stories to novels. All reflect my passion for storytelling. Enjoy reading!",
+    "featured": {
+      "title": "grauer regenbogen",
+      "blurb": "Lana’s art reflects her soul, but the scars left by her toxic ex, Kathlyn, run deep. When collector Jamie buys her paintings, hope begins to sprout—along with fear. Is Jamie’s interest genuine, or is it just another attempt at manipulation? With the support of her outspoken friend Suki, Lana confronts her wounds and the threats from the outside world. “Gray Rainbow” is a poetic book about toxic relationships, healing, and the courage to be seen.",
+      "link": "Buy on "
+    },
+    "stories": {
+      "read_more": "Read more",
+      "emilyth": {
+        "title": "Emily and the Art of Not Kissing",
+        "blurb": "In a world full of romantic clichés, Emily Benoît is perhaps the most atypical succubus of all time: shy, chaotic, and with a one hundred percent escape rate on first dates."
+      }
+    }
+  }
+}

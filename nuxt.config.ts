@@ -5,6 +5,7 @@ const TRANSLATION_FILES: string[] = [
   'header',
   'navbar',
   'home',
+  'stories',
 ];
 
 function getTranslationFileList(locale: LocaleObject<string>['code']): string[] {

@@ -1,0 +1,18 @@
+{
+  "stories": {
+    "title": "Stories",
+    "intro": "Hier findest du eine Auswahl meiner Geschichten, von Kurzgeschichten bis zu Romanen. Alle spiegeln meine Leidenschaft für das Erzählen wider. Viel Spaß beim Lesen!",
+    "featured": {
+      "title": "grauer regenbogen",
+      "blurb": "Lanas Kunst spiegelt ihre Seele, doch die Narben ihrer toxischen Ex Kathlyn sitzen tief. Als Sammlerin Jamie ihre Bilder kauft, keimt Hoffnung auf – und Angst. Ist Jamies Interesse echt oder ein neuer Manipulationsversuch? Unterstützt von ihrer lauten Freundin Suki stellt sich Lana ihren Wunden und Bedrohungen von außen. „Grauer Regenbogen“ ist ein poetisches Buch über toxische Bindungen, Heilung und den Mut, sichtbar zu sein.",
+      "link": "Kaufen auf "
+    },
+    "stories": {
+      "read_more": "Mehr lesen",
+      "emilyth": {
+        "title": "Emily und die Kunst, nicht zu küssen",
+        "blurb": "In einer Welt voller romantischer Klischees ist Emily Benoît die wohl untypischste Sukkubus aller Zeiten: schüchtern, chaotisch, und mit einer hundertprozentigen Fluchtquote bei ersten Dates."
+      }
+    }
+  }
+}

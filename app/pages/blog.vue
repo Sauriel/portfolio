@@ -1,6 +1,6 @@
 <template>
   <UiCard id="main" tag="main">
-    <LoremIpsum />
+    <ComingSoon />
   </UiCard>
 </template>
 

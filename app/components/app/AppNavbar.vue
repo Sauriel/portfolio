@@ -72,6 +72,20 @@
 .app-navbar.sticky {
   position: sticky;
   top: 1rem;
+  height: 273px;
+  overflow: hidden;
+}
+
+.app-navbar.sticky:not(:hover) .app-navbar-nav {
+  display: none;
+}
+
+.app-navbar.sticky:not(:hover) .app-navbar-footer {
+  display: none;
+}
+
+.app-navbar.sticky:hover {
+  height: auto;
 }
 
 .logo {

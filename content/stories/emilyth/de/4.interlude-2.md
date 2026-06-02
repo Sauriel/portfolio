@@ -1,0 +1,9 @@
+# Fast Food
+
+”Ich esse genug”, murmelte Emily während sie ihren Royal TS auspackte. “Und gesund. Salat, Tomaten, Sesam Topping …” Ein sehnsüchtiger Blick fiel zu ihrem Vanille Milchshake während sie des Telefon weiter an ihr Ohr hielt. “Emilyth, Chérie. Wir können deine Kreditkartenabrechnung sehen. Gesund sieht anders aus.” Die Stimme ihrer Mutter hatte diese liebevolle Strenge angenommen, der sie sich nicht widersetzen konnte.  “Aber Muuuum …”, quengelte sie. “Das ist nur manchmal. Wenn ich Hunger habe.” *Wenn die Sukkubus langsamer alterten als Menschen, dann zählte achtmal die Woche ja wohl auch als manchmal.*
+
+“Chérie,” fing Seraphine Benoît mit sanfter Stimme an, “du hättest nicht so oft Hunger, wenn du dich endlich von einem Menschen nähren würdest. Wollte dir Vivianne nicht helfen? Sie hatte nie Probleme einen Mann ins Bett zu kriegen. Oder eine Frau, falls dir das lieber ist.” Emily verdrehte die Augen. *Vivi, immer wieder Vivi. Ich könnte das auch, wenn man mich nicht so sehr drängen würde.*
+
+“Ich weiß, Maman”, erwiderte Emily stattdessen und kuschte mal wieder. “Beim nächsten Date, und das habe ich heute schon,” sagte sie voller Stolz, “werde ich mich nähren. Versprochen.” Einen Moment blieb es still in der Leitung. “Wir werden sehen”, erwiderte ihre Mutter und kurz hörte Emily die Stimme ihres Vaters im Hintergrund. “Dein Papa lässt ausrichten, dass er dich liebt. Und ich natürlich auch.” – Ich weiß”, flüsterte Emily und blinzelte eine Träne weg.
+
+“Dann husch, husch, Chérie. Ich bin mir sicher, du musst dich noch schminken und dein Kleid anziehen bevor du los gehst.” Mit einem “Natürlich” beendete Emily das Gespräch und sah auf ihren roten Wollpulli hinunter, während sie genüsslich ihren Shake trank. *Ich bin mir sicher, dass Kirschlippenbalsam auch als Schminke zählt. Und vielleicht hab ich nach dem Essen ja noch Zeit mir ein Kleid anzuziehen.*
